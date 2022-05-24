@@ -31,9 +31,9 @@
   --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
   --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
+  --rs-online-color: #00ff15; /* Colour for online status */
+  --rs-idle-color: #d9ff00; /* Colour for idle status */
+  --rs-dnd-color: #ff5100; /* Colour for dnd status */
   --rs-offline-color: #636b75; /* Colour for offline status */
   --rs-streaming-color: #643da7; /* Colour for streaming status */
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
@@ -1908,13 +1908,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     height: auto;
 }
 
-.layer-2aCOJ3 .userPopout-2j1gM4{
-    border: double 2px transparent;
-    border-radius: 10px;
-    background-image: linear-gradient(#18191C, #18191C), radial-gradient(circle at top left, #f00,#3020ff);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
+
 
 
 .focusLock-2tveLW .flex-2S1XBF, [class="flex-2S1XBF flex-3BkGQD horizontalReverse-60Katr horizontalReverse-2QssvL flex-3BkGQD directionRowReverse-HZatnx justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz footer-31IekZ footer-3ie9JP footerSeparator-VzAYwb"]{
