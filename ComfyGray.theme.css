@@ -24,12 +24,12 @@
  @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 /* edit radial status icons from the above import */
 :root {
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-  --rs-small-width: 1px; /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 1px; /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 2px; /* Thickness of status border for User profile | MUST end in px */
+  --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 1px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 1px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-width: 1.3px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
   --rs-online-color: #43b581; /* Colour for online status */
   --rs-idle-color: #faa61a; /* Colour for idle status */
@@ -1928,23 +1928,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     border-radius: 16px;
 }
 
-.layer-2aCOJ3 .userPopout-2j1gM4{
-    border: 2px solid #ff0000;
-    animation: color 6s infinite linear;
-    border-radius: 10px;
-}
-
-@keyframes color {
-    0%    {border-color: #ff0000}
-    12%   {border-color: #ffbf00}
-    25%   {border-color: #80ff00}
-    37%   {border-color: #00ff40}
-    50%   {border-color: #00ffff}
-    62%   {border-color: #0040ff}
-    75%   {border-color: #8000ff}
-    87%   {border-color: #eb34bd}
-    100%  {border-color: #ff0000}
-}
 
 
 
