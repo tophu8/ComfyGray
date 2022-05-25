@@ -1944,3 +1944,37 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     width: 95%;
     margin-left: 2.5%;
 }
+
+
+
+.role-2TIOKu:not(.member-perm){
+    border:1px solid;
+}
+.rolesList-3uZoaa .role-2TIOKu {
+    position: relative;
+}
+.roleCircle-1EgnFN:not(.perm-circle) {
+    position: absolute;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-background-clip: text;
+}
+.rolesList-3uZoaa .roleCircle-1EgnFN:after {
+    content: attr(aria-label);
+    white-space: nowrap;
+    color: transparent;
+    margin-left:-73px;
+}
+.rolesList-3uZoaa .roleName-2ZJJYR {
+    color: transparent;
+}
+img.roleIcon-3-WL_I.roleIcon-29epUq {
+    display: none;
+}
+
+
+
+
+
