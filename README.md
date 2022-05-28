@@ -13,16 +13,11 @@
 
 ## Installation
 
-- ### [Powercord](https://github.com/powercord-org/powercord)
-
-  - clone the repo `cd powercord/src/Powercord/themes && git clone https://github.com/x6r/dracula`
-  - enable dracula by typing `[p]theme enable dracula` ([Theme Toggler](https://github.com/redstonekasi/theme-toggler))
-
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
-  - download the theme file [here](https://betterdiscord.app/Download?id=233)
-  - place it in the BetterDiscord themes folder
-  - enable dracula in the themes tab
+  - download the theme file
+  - place it in the BetterDiscord themes folder(%appdata%/betterdiscord/themes)
+  - enable ComfyGray in the themes tab
 
 ## Credits
 
