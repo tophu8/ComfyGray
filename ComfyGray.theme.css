@@ -1,15 +1,15 @@
 /**
- * @name ComfyGray
- * @version 1.0
- * @author carrot#8812
- * @authorLink not-set
- * @description A theme with a nice shade of gray everywhere! Its super comfy.
- * @source not-set
- * @invite not-set
- */
+* @name ComfyGray
+* @version 1.0
+* @author carrot#8812
+* @authorLink not-set
+* @description A theme with a nice shade of gray everywhere! Its super comfy.
+* @source not-set
+* @invite not-set
+*/
 
 
- /* all the imports */
+/* all the imports */
 
  /* icon replace (by Obscure.#4719) */
  @import url("https://lavender-discord.github.io/IconsaxDiscord/icon-styles/icons-bold.css");
@@ -18,79 +18,12 @@
  @import url("https://lavender-discord.github.io/IconsaxDiscord/src/others.css");
  @import url("https://lavender-discord.github.io/IconsaxDiscord/src/text-bar.css");
  @import url("https://lavender-discord.github.io/IconsaxDiscord/src/toolbar.css");
-
- 
  /* radial status icons (by Gibbu#1211) */
  @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-/* edit radial status icons from the above import */
-:root {
-  --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 1px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 1px; /* Gap between avatar and status for User profiles | MUST end in px */
-  --rs-small-width: 1.3px; /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-  --rs-online-color: #00ff15; /* Colour for online status */
-  --rs-idle-color: #d9ff00; /* Colour for idle status */
-  --rs-dnd-color: #ff5100; /* Colour for dnd status */
-  --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
-  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
-  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-}
-
-
-#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after{
-    display: none;
-}
-.PI-icon_desktop[data-status="online"], .PI-icon_mobile[data-status="online"]{
-    color: green !important;
-}
-/* end of imports */
-
-
-/* makes text lighter? idk */
-*{
-    font-weight: 320 !important;
-}
-
-/* telling the user that compact mode is unsupported */
-.compact-2Nkcau .messageContent-2t3eCI {
-    font-size: 0px;
-}
-.compact-2Nkcau .messageContent-2t3eCI::after {
-    content: "THIS THEME DOES NOT SUPPORT COMPACT MODE!!! PLEASE CHANGE THE THEME OR REVERT BACK TO COMFY!!";
-    font-size: 13px;
-    margin-top: 200px !important;
-    user-select: none;
-}
-.compact-2Nkcau .contents-2MsGLg{
-    text-indent: 0px;
-}
-.compact-2Nkcau .timestamp-p1Df1m,
-.compact-2Nkcau .username-h_Y3Us,
-.compact-2Nkcau .messageAttachment-CZp8Iv, 
-.compact-2Nkcau code, 
-.compact-2Nkcau .wrapper-1ZcZW-, 
-.compact-2Nkcau .repliedMessage-3Z6XBG,
-.compact-2Nkcau .blockquoteContainer-3VtvI1,
-.compact-2Nkcau .scrollbarGhostHairline-2LpzZ9,
-.compact-2Nkcau .PI-indicatorContainer,
-.compact-2Nkcau [id*="message-accessories-"],
-.compact-2Nkcau.hasThread-3h-KJV .contents-2MsGLg:before,
-.botTagCompact-1idyyC,
-.compact-2Nkcau .anchor-1MIwyf,
-.compact-2Nkcau .iconContainer-2rPbqG {
-    display: none;
-}
-
-
 
 
 /* making it so dark and light mode are the same (since the theme is only gray) */
-
+ 
 .theme-dark,.theme-light {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
@@ -228,6 +161,321 @@
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
 }
+
+/* edit radial status icons from the above import */
+:root {
+  --rs-small-spacing: 1px; /* Gap between avatar and status for members list/dms | MUST end in px */
+  --rs-medium-spacing: 1px; /* Gap between avatar and status for User popout | MUST end in px */
+  --rs-large-spacing: 1px; /* Gap between avatar and status for User profiles | MUST end in px */
+  --rs-small-width: 1.3px; /* Thickness of status border for members list/dms | MUST end in px */
+  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+  --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
+  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+  --rs-online-color: #00ff15; /* Colour for online status */
+  --rs-idle-color: #d9ff00; /* Colour for idle status */
+  --rs-dnd-color: #ff5100; /* Colour for dnd status */
+  --rs-offline-color: #636b75; /* Colour for offline status */
+  --rs-streaming-color: #643da7; /* Colour for streaming status */
+  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  --rs-phone-visible: none; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+
+
+
+/* server rings!!! REMOVE THIS TO MAKE IT NORMAL AGAIN IF YOU DONT LIKE THIS. */
+:root {
+  --server-unread-colour: 255, 255, 255;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 16px;
+  --server-glow-intensity: 1;
+}
+#app-mount .wrapper-38slSD ul[role=group] {
+  height: auto !important;
+}
+#app-mount .scroller-3X7KbA > div[style]:not([class]) {
+  margin-bottom: var(--server-spacing);
+}
+#app-mount .listItem-3SmSlK {
+  width: 96%;
+  margin-bottom: var(--server-spacing);
+}
+#app-mount .blobContainer-ikKyFs,
+#app-mount .listItemWrapper-3d87LP {
+  transition: var(--transition, 0.15s ease);
+  transition-property: transform;
+}
+#app-mount .blobContainer-ikKyFs:active,
+#app-mount .listItemWrapper-3d87LP:active {
+  transform: scale(0.9);
+}
+#app-mount .svg-2zuE5p foreignObject {
+  border-radius: var(--server-roundness, 50%);
+  -webkit-mask: none !important;
+          mask: none !important;
+}
+#app-mount [class*=pill] {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(var(--server-size, 48px) + 6px);
+  height: calc(var(--server-size, 48px) + 6px);
+  overflow: visible;
+  margin-left: -2px;
+}
+#app-mount [class*=pill] .item-2LIpTv {
+  height: 100% !important;
+  width: 100%;
+  margin: 0;
+  border-radius: var(--server-roundness, 50%);
+  background: transparent;
+  border: 2px solid transparent;
+  box-shadow: none;
+  transform: none !important;
+  transition: var(--transition);
+  transition-property: box-shadow;
+}
+#app-mount [id^="folder-items-"] .pill-2RsI5Q{
+    width: calc(var(--server-size, 39px) + 6px);
+    height: calc(var(--server-size, 39px) + 6px);
+}
+#app-mount [class*=pill] span[style*="height: 0"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 1"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 2"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 3"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 4"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 5"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 6"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 7"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 8"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+#app-mount [class*=pill] span[style*="height: 9"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 10"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 11"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 12"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 13"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 14"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 15"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 16"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 17"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 18"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 19"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 20"] {
+  border-color: rgb(var(--server-hover-colour));
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) rgb(var(--server-hover-colour), 0.25);
+}
+#app-mount [class*=pill] span[style*="height: 21"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 22"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 23"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 24"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 25"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 26"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 27"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 28"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 29"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 30"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 31"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 32"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 33"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 34"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 35"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 36"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 37"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 38"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 39"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+#app-mount [class*=pill] span[style*="height: 40"] {
+  transform: scale(1) !important;
+  border-color: #999;
+  box-shadow: 0 0 calc(var(--server-glow-intensity) * 15px) calc(var(--server-glow-intensity) * 5px) #666;
+}
+
+/* end of server rings */
+
+
+
+#app-mount .wrapper-1VLyxH foreignObject[mask*=mobile]:after{
+    display: none;
+}
+.PI-icon_desktop[data-status="online"], .PI-icon_mobile[data-status="online"]{
+    color: green !important;
+}
+/* end of imports */
+
+
+/* makes text lighter? idk */
+*{
+    font-weight: 320 !important;
+}
+
+/* telling the user that compact mode is unsupported */
+.compact-2Nkcau .messageContent-2t3eCI {
+    font-size: 0px;
+}
+.compact-2Nkcau .messageContent-2t3eCI::after {
+    content: "THIS THEME DOES NOT SUPPORT COMPACT MODE!!! PLEASE CHANGE THE THEME OR REVERT BACK TO COMFY!!";
+    font-size: 13px;
+    margin-top: 200px !important;
+    user-select: none;
+}
+.compact-2Nkcau .contents-2MsGLg{
+    text-indent: 0px;
+}
+.compact-2Nkcau .timestamp-p1Df1m,
+.compact-2Nkcau .username-h_Y3Us,
+.compact-2Nkcau .messageAttachment-CZp8Iv, 
+.compact-2Nkcau code, 
+.compact-2Nkcau .wrapper-1ZcZW-, 
+.compact-2Nkcau .repliedMessage-3Z6XBG,
+.compact-2Nkcau .blockquoteContainer-3VtvI1,
+.compact-2Nkcau .scrollbarGhostHairline-2LpzZ9,
+.compact-2Nkcau .PI-indicatorContainer,
+.compact-2Nkcau [id*="message-accessories-"],
+.compact-2Nkcau.hasThread-3h-KJV .contents-2MsGLg:before,
+.botTagCompact-1idyyC,
+.compact-2Nkcau .anchor-1MIwyf,
+.compact-2Nkcau .iconContainer-2rPbqG {
+    display: none;
+}
+
+
+
+
 
 
 
@@ -478,7 +726,7 @@
     border-style: solid;
 }
 .circleIconButton-1VxDrg:hover{
-    border-radius: 20px;
+    border-radius: 25px;
     border-width: 2px;
     border-color: #ffffff;
     border-style: solid;
@@ -491,6 +739,10 @@
 .circleIconButton-1VxDrg:hover:nth-child(1){
     color:white
 }
+.tutorialContainer-2jwoiB + div .pill-1NRFie{
+    display: none;
+}
+
 
 /* custom textbox modification */
 .input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL),
@@ -1641,19 +1893,16 @@ to {
 }
 
 
-/* she broke up with me :/ 
-
+/* for my pretty girlfriend :)*/
 [data-author-id='907003824370229340'] .header-2jRmjb .username-h_Y3Us::after, 
 [data-user-id="907003824370229340"] + .header-1dhDWV::after, 
 [data-user-id="907003824370229340"] + .text-3j8t_e .username-3JLfHz::after, 
-[data-user-id="907003824370229340"] + .listName-PwbeHL .username-3JLfHz::after {
+[data-user-id="907003824370229340"] + .listName-PwbeHL .username-3JLfHz::after{
     content: '';
-    background: url(https://cdn.discordapp.com/attachments/792489362138988576/966940924968058890/heart.png) center/100% no-repeat;
-    padding: 0px 7px 0px 7px;
-    margin-left: 6px;
+    background: url(https://cdn.discordapp.com/attachments/792489362070962218/979796529021866014/274063902019211.png) center/100% no-repeat;
+    padding: 0px 7px 2.7px 7px;
+    margin-left: 4.3px;
 }
-
-*/
 
 
 .username-h_Y3Us:before {
@@ -1978,3 +2227,45 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
 
 
 
+.lowerBadge-3WTshO .numberBadge-37OJ3S {
+    font-weight: 500 !important;
+}
+
+.uploadIcon-2wV7s_ .iconContainer-GFfNaA circle {
+    fill: #444 !important;
+}
+[class="button-f2h6uQ lookBlank-21BCro colorBrand-I6CyqQ sizeMin-DfpWCE grow-2sR_-F"], .backButton-2Ps-B8 {
+    color: #999 !important;
+}
+.container-1Lk8p7 .optionsList-dmHy1l .container-x8Y1ix{
+    transition: 0.3s ease;
+    background-color: #111111;
+}
+.container-1Lk8p7 .optionsList-dmHy1l .container-x8Y1ix:hover{
+    background-color: #181818;
+    border-radius: 35px;
+}
+[d="M54.8694 2.85498C53.8065 2.4291 52.721 2.04752 51.6153 1.71253L51.3254 2.66957L51.0354 3.62661C51.9783 3.91227 52.9057 4.23362 53.8161 4.58911C54.1311 3.98753 54.4832 3.40847 54.8694 2.85498ZM75.4109 26.1839C76.0125 25.8689 76.5915 25.5168 77.145 25.1306C77.5709 26.1935 77.9525 27.279 78.2875 28.3847L77.3304 28.6746L76.3734 28.9646C76.0877 28.0217 75.7664 27.0943 75.4109 26.1839ZM78.8148 43.8253L79.8102 43.9222C79.9357 42.6318 80 41.3234 80 40C80 38.6766 79.9357 37.3682 79.8102 36.0778L78.8148 36.1747L77.8195 36.2715C77.9389 37.4977 78 38.7414 78 40C78 41.2586 77.9389 42.5023 77.8195 43.7285L78.8148 43.8253ZM43.8253 1.18515L43.9222 0.189853C42.6318 0.0642679 41.3234 0 40 0C38.6766 0 37.3682 0.064268 36.0778 0.189853L36.1747 1.18515L36.2715 2.18045C37.4977 2.06112 38.7414 2 40 2C41.2586 2 42.5023 2.06112 43.7285 2.18045L43.8253 1.18515ZM28.6746 2.66957L28.3847 1.71253C25.8549 2.47897 23.4312 3.48925 21.1408 4.71604L21.6129 5.59756L22.0851 6.47907C24.2606 5.3138 26.5624 4.35439 28.9646 3.62661L28.6746 2.66957ZM15.2587 9.85105L14.6239 9.0784C12.5996 10.7416 10.7416 12.5996 9.0784 14.6239L9.85105 15.2587L10.6237 15.8935C12.2042 13.9699 13.9699 12.2042 15.8935 10.6237L15.2587 9.85105ZM5.59756 21.6129L4.71604 21.1408C3.48925 23.4312 2.47897 25.8549 1.71253 28.3847L2.66957 28.6746L3.62661 28.9646C4.35439 26.5624 5.3138 24.2607 6.47907 22.0851L5.59756 21.6129ZM0 40C0 38.6766 0.0642679 37.3682 0.189853 36.0778L1.18515 36.1747L2.18045 36.2715C2.06112 37.4977 2 38.7414 2 40C2 41.2586 2.06112 42.5023 2.18045 43.7285L1.18515 43.8253L0.189853 43.9222C0.064268 42.6318 0 41.3234 0 40ZM2.66957 51.3254L1.71253 51.6153C2.47897 54.1451 3.48926 56.5688 4.71604 58.8592L5.59756 58.3871L6.47907 57.9149C5.3138 55.7394 4.35439 53.4376 3.62661 51.0354L2.66957 51.3254ZM9.85105 64.7413L9.0784 65.3761C10.7416 67.4004 12.5996 69.2584 14.6239 70.9216L15.2587 70.1489L15.8935 69.3763C13.9699 67.7958 12.2042 66.0301 10.6237 64.1065L9.85105 64.7413ZM21.6129 74.4024L21.1408 75.284C23.4312 76.5107 25.8549 77.521 28.3847 78.2875L28.6746 77.3304L28.9646 76.3734C26.5624 75.6456 24.2607 74.6862 22.0851 73.5209L21.6129 74.4024ZM36.1747 78.8148L36.0778 79.8102C37.3682 79.9357 38.6766 80 40 80C41.3234 80 42.6318 79.9357 43.9222 79.8102L43.8253 78.8148L43.7285 77.8195C42.5023 77.9389 41.2586 78 40 78C38.7414 78 37.4977 77.9389 36.2715 77.8195L36.1747 78.8148ZM51.3254 77.3304L51.6153 78.2875C54.1451 77.521 56.5688 76.5107 58.8592 75.284L58.3871 74.4024L57.9149 73.5209C55.7394 74.6862 53.4376 75.6456 51.0354 76.3734L51.3254 77.3304ZM64.7413 70.1489L65.3761 70.9216C67.4004 69.2584 69.2584 67.4004 70.9216 65.3761L70.1489 64.7413L69.3763 64.1065C67.7958 66.0301 66.0301 67.7958 64.1065 69.3763L64.7413 70.1489ZM74.4024 58.3871L75.284 58.8592C76.5107 56.5688 77.521 54.1451 78.2875 51.6153L77.3304 51.3254L76.3734 51.0354C75.6456 53.4375 74.6862 55.7393 73.5209 57.9149L74.4024 58.3871Z"]{
+    color: #777;
+}
+
+.itemFilled-1cPbtg{
+    background-color: #111 !important;
+    transition: 0.3s ease;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.itemFilled-1cPbtg:hover{
+    background-color: #333 !important;
+    border-radius: 35px;
+}
+.voiceUser-3nRK-K:hover{
+    background-color: #333;
+    border-radius: 25px;
+}
+.voiceUser-3nRK-K {
+    transition: 0.5s ease;
+}
+.listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42{
+    background-color: transparent !important;
+}

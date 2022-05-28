@@ -5,7 +5,7 @@
   <a href="#credits">credits</a>
 </p>
 
-![](https://i.imgur.com/b2zdZSc.png)
+![](https://i.imgur.com/ohvHd2s.png)
 
 <p align="center">a nice, smooth, comfortable gray theme for Discord.</p>
 
