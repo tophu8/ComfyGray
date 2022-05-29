@@ -2067,8 +2067,15 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
     background-color: transparent !important;
 }
 
+/* jump buttons adjustment(inbox) */
 
-
+.layer-2aCOJ3 .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI  .hasReply-2Cr4KE+div {
+    margin-top: 25px !important;
+}
+.layer-2aCOJ3 .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI .actionButtons-2mNSAB .jumpButton-1ZwI_j{
+    border: 1px solid #999;
+    border-radius: 25px;
+}
 
 
 
