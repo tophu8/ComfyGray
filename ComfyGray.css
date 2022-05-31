@@ -814,7 +814,6 @@ button[aria-label="Show Game Activity"]::before {
     background-color: #383838;
     border-radius: 30px;
     margin-bottom: 3px;
-
 }
 .cooldownWrapper-2k1jHK{
     position: relative;
@@ -1580,7 +1579,7 @@ button[aria-label="Show Game Activity"]::before {
     display: none;
 }
 .root-8LYsGj .relationshipButtons-3ByBpj{
-    margin-top: -25px;
+    margin-top: 7px;
     z-index: 9999;
 }
 .userInfoSection-2u2hir{
@@ -2082,4 +2081,45 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
 }
 
 
+/* message attachments */
+.messageAttachment-CZp8Iv .wrapper-1FP9YQ, .messageAttachment-CZp8Iv .attachment-1PZZB2 {
+    background-color: rgba(0, 0, 0, 0.062) !important;
+    border-radius: 10px;
+}
 
+
+
+/* centered user popout avatar*/
+.avatarWrapperNormal-ahVUaC {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+.headerTop-3GPUSF {
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    right: 0px;
+    top: 0px;
+}
+
+.profileBadges-2pItdR {
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+    right: 0px;
+    top: 0px;
+}
+
+.customStatus-3XAoF9 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.userPopout-2j1gM4 .UserDetails-dates-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
