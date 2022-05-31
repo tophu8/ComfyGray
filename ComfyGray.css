@@ -2076,8 +2076,10 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
     border: 1px solid #999;
     border-radius: 25px;
 }
-
-
+.UserDetails-dates-wrapper .UserDetails-dates-container {
+    margin-top: 50px;
+    z-index: 1000;
+}
 
 
 
