@@ -2131,3 +2131,21 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
     text-align: center;
     pointer-events: none;
 }
+
+
+
+
+/* fix invites from browser */
+.focusLock-2tveLW .container-1Gt1iQ .inviteSplash-2Q0PLE{
+    display: none;
+}
+.focusLock-2tveLW .container-1Gt1iQ .flex-2S1XBF .pill-qMtBTq .pillMessage-3pHz6R{
+    margin-top: 85px;
+    position: relative;
+    left: -5px !important;
+}
+.focusLock-2tveLW .container-1Gt1iQ .flex-2S1XBF .pillOnline-345ee0 .pillMessage-3pHz6R{
+    padding-right: 120px;
+    margin-top: 130px !important;
+    margin-left: 127.5px !important;
+}
