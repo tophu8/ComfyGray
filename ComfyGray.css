@@ -1192,7 +1192,14 @@ button[aria-label="Show Game Activity"]::before {
     x: 4px !important;
     y: 0px !important;
     rx: 5;
-    fill: #151515;
+    fill: #424549;
+    
+}
+.bd-switch-checked .bd-switch-symbol path{
+    fill: rgb(0, 255, 0) !important;
+}
+.bd-switch .bd-switch-symbol path{
+    fill: #999;
 }
 .bd-addon-header{
     background-color: #222222 !important;
@@ -2122,4 +2129,5 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
     display: flex;
     justify-content: center;
     text-align: center;
+    pointer-events: none;
 }
