@@ -221,6 +221,9 @@
 
 
 /* adds watermark */
+:root{
+    --version-number: "2.0";
+}
 .wordmarkWindows-2dq6rw svg {
    display:none;
 }
@@ -233,7 +236,7 @@
    position: relative;
 }
 .wordmarkWindows-2dq6rw::after{
-    content: 'v1.0';
+    content: 'v' var(--version-number);
     font-size: 11px;
     margin-left: 2px;
     top:4px;
@@ -1097,9 +1100,6 @@ button[aria-label="Show Game Activity"]::before {
 [aria-controls="add_friend-tab"]:hover{
     transition: 0.5s ease;
     background-color: #292B2E !important;
-}
-[style="color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"]{
-    color: rgba(255, 255, 255, 0.479) !important;
 }
 .form-2oOOG9 .content-2hZxGK  .flex-2S1XBF {
     background-color: transparent;
