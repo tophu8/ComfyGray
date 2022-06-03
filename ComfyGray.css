@@ -2147,5 +2147,5 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
 .focusLock-2tveLW .container-1Gt1iQ .flex-2S1XBF .pillOnline-345ee0 .pillMessage-3pHz6R{
     padding-right: 120px;
     margin-top: 130px !important;
-    margin-left: 127.5px !important;
+    margin-left: calc(127.5px + 8px) !important;
 }
