@@ -1555,7 +1555,7 @@ button[aria-label="Show Game Activity"]::before {
 
 
 /* profile banner full background */
-.bannerPremium-kkSkPv:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N),.banner-1YaD3N:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N) {
+.bannerPremium-kkSkPv:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, #account .item-1OdjEX .popoutBanner-3cqRD9),.banner-1YaD3N:not(.accountProfileCard-lbN7n- .banner-1YaD3N, .userPopout-2j1gM4 .banner-1YaD3N, #account .item-1OdjEX .popoutBanner-3cqRD9) {
   position:absolute;
   height:100%;
   width:100%;
@@ -1567,7 +1567,7 @@ button[aria-label="Show Game Activity"]::before {
 .role-2TIOKu {
   background-color:transparent!important;
 }
-.avatar-3QF_VA,.wrapper-1VLyxH {
+.avatar-3QF_VA,.wrapper-1VLyxH:not(#account .wrapper-1VLyxH) {
   border-color:transparent!important;
   background-color:transparent!important;
 }
@@ -1995,35 +1995,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 
 
-/* restyling roles (kinda buggy but no other way to do it) */
-.role-2TIOKu:not(.member-perm){
-    border:1px solid;
-}
-.rolesList-3uZoaa .role-2TIOKu {
-    position: relative;
-}
-.roleCircle-1EgnFN:not(.perm-circle) {
-    position: absolute;
-    border-radius: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-background-clip: text;
-}
-.rolesList-3uZoaa .roleCircle-1EgnFN:after {
-    content: attr(aria-label);
-    white-space: nowrap;
-    color: transparent;
-    margin-left:-73px;
-}
-.rolesList-3uZoaa .roleName-2ZJJYR {
-    color: transparent;
-}
-img.roleIcon-3-WL_I.roleIcon-29epUq {
-    display: none;
-}
-
-
 
 
 /* makes pings more bold(BARELY noticable bro) */
@@ -2125,14 +2096,28 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
     text-align: center;
 }
 
-.userPopout-2j1gM4 .UserDetails-dates-container{
+.userPopout-2j1gM4 .UserDetails-dates-container, #account .UserDetails-dates-container {
     display: flex;
     justify-content: center;
     text-align: center;
     pointer-events: none;
 }
+#account .profileBadges-2pItdR {
+    margin-right: 20px;
+}
+#account .headerTop-3GPUSF {
+    margin-left: 20px;
+}
 
-
+#app-mount .profileGroup-1yKk23 .item-1OdjEX {
+    background-color: transparent !important;
+    border-radius: 0px;
+}
+#account{
+    margin-left: 40px;
+    margin-bottom: -17px;
+    border-bottom-left-radius: 0;
+}
 
 
 /* fix invites from browser */
@@ -2149,3 +2134,5 @@ img.roleIcon-3-WL_I.roleIcon-29epUq {
     margin-top: 130px !important;
     margin-left: calc(127.5px + 8px) !important;
 }
+
+
