@@ -2100,7 +2100,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     display: flex;
     justify-content: center;
     text-align: center;
-    pointer-events: none;
 }
 #account .profileBadges-2pItdR {
     margin-right: 20px;
@@ -2134,5 +2133,4 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     margin-top: 130px !important;
     margin-left: calc(127.5px + 8px) !important;
 }
-
 
