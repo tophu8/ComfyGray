@@ -2134,3 +2134,16 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     margin-left: calc(127.5px + 8px) !important;
 }
 
+
+/* toolbar selected/hover icon glow */
+.title-31SJ6t .iconWrapper-2awDjA:hover{
+    transition: 0.2s ease;
+    filter: drop-shadow(0 0 5px #999) !important;
+}
+.title-31SJ6t .iconWrapper-2awDjA{
+    transition: 0.2s ease;
+}
+.title-31SJ6t .selected-29KTGM{
+    transition: 0.2s ease;
+    filter: drop-shadow(0 0 5px #999) !important;
+}
