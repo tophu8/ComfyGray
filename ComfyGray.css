@@ -2186,7 +2186,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 .barFill-Dhkah7,
 .timeline-UWmgAx:hover .barFill-Dhkah7 {
-	background: rgba(0, 105, 53, 0.533) !important;
+	background: #777 !important;
 }
 
 .inner-WRV6k5 {
@@ -2196,4 +2196,8 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 .barText-lmqc5O,
 .grabber-7sd5f5 {
 	display: none !important;
+}
+
+::-webkit-scrollbar{
+    display: none;
 }
