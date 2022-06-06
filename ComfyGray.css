@@ -1678,10 +1678,7 @@ to {
 }
 
 
-
-
-
-/* for my pretty girlfriend :) */
+/*
 [data-author-id='907003824370229340'] .header-2jRmjb .username-h_Y3Us::after, 
 [data-user-id="907003824370229340"] + .header-1dhDWV::after, 
 [data-user-id="907003824370229340"] + .text-3j8t_e .username-3JLfHz::after, 
@@ -1691,6 +1688,8 @@ to {
     padding: 0px 7px 2.7px 7px;
     margin-left: 4.3px;
 }
+*/
+
 
 .username-h_Y3Us:before {
     content: "";
@@ -2068,7 +2067,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 
 /* centered user popout avatar*/
-.avatarWrapperNormal-ahVUaC {
+.avatarWrapperNormal-ahVUaC, .preview-Z55SA3 .avatarUploaderNormal-2m2hFm, .avatarWrapperNonUserBot-2LumL4  {
     position: absolute;
     transform: translate(-50%);
     left: 50%;
@@ -2096,7 +2095,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     text-align: center;
 }
 
-.userPopout-2j1gM4 .UserDetails-dates-container, #account .UserDetails-dates-container {
+.userPopout-2j1gM4 .UserDetails-dates-container, #account .UserDetails-dates-container, .preview-Z55SA3 .UserDetails-dates-container, .preview-Z55SA3 .popoutInfo-16MuYF .eyebrow-Ejf06y{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -2201,3 +2200,5 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 ::-webkit-scrollbar{
     display: none;
 }
+
+
