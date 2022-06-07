@@ -2,6 +2,16 @@
 * @name ComfyGray
 * @version 1.0
 * @author carrot#8812
+* @description A theme with a nice shade of gray everywhere! Its super comfy.
+* @source not-set
+* @invite not-set
+*/
+
+
+/**
+* @name ComfyGray
+* @version 1.0
+* @author carrot#8812
 * @authorLink not-set
 * @description A theme with a nice shade of gray everywhere! Its super comfy.
 * @source not-set
@@ -916,16 +926,16 @@ button[aria-label="Show Game Activity"]::before {
 
 /* user setting buttons */
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-    background-color: #222222 !important;
+    background-color: #222222;
 }
 .lookFilled-yCfaCM .contents-3ca1mk, .lookInverted-2mDUMi .contents-3ca1mk, .lookLink-15mFoz .contents-3ca1mk, .lookOutlined-3yKVGo .contents-3ca1mk{
     overflow: visible;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background-color: #333333 !important;
+    background-color: #333333;
 }
 .userSettingsSecurity-2kODPN .isEnabled-20V6lG{
-    color:#2a7742 !important;
+    color:#2a7742;
 }
 .messagesWrapper-RpOMA3 ::-webkit-scrollbar{
     display: none;
@@ -1163,119 +1173,119 @@ button[aria-label="Show Game Activity"]::before {
 
 /* unread seperator color styling */
 .isUnread-3Lojb- {
-    border-color: var(--divider-color);
-    --divider-color: rgb(63, 63, 63);
+    border-color            :               var(--divider-color);
+    --divider-color         :             rgb(63, 63, 63);
 }
 
 
 /* mention button color change */
 .colorLink-2apWfY.mentionButton-3C5YMI {
-    color:#ebebeb;
+    color                   :             #ebebeb;
 }
 .colorMuted-20987_.mentionButton-3C5YMI {
-    color:#919191b4;
+    color                   :             #919191b4;
 }
 
 
 /* bd plugin/themes modification*/
 #app-mount .container-2nx-BQ, #app-mount .bd-switch-body {
-    width: 20px;
-    height: 20px;
-    background: transparent !important;
+    width                   :               20px;
+    height                  :               20px;
+    background              :               transparent !important;
 }
 #app-mount .container-2nx-BQ .slider-32CRPX, #app-mount .bd-switch-body .bd-switch-slider {
-    left: -6px !important;
+    left                    :               -6px !important;
 }
 #app-mount .container-2nx-BQ .slider-32CRPX > rect, #app-mount .bd-switch-body .bd-switch-slider rect {
-    height: 20px !important;
-    width: 20px !important;
-    x: 4px !important;
-    y: 0px !important;
-    rx: 5;
-    fill: #424549;
+    height                  :               20px !important;
+    width                   :               20px !important;
+    x                       :               4px !important;
+    y                       :               0px !important;
+    rx                      :               5;
+    fill                    :             #424549;
     
 }
 .bd-switch-checked .bd-switch-symbol path{
-    fill: rgb(0, 255, 0) !important;
+    fill                    :             rgb(0, 255, 0) !important;
 }
 .bd-switch .bd-switch-symbol path{
-    fill: #999;
+    fill                    :             #999;
 }
 .bd-addon-header{
-    background-color: #222222 !important;
+    background-color        :             #222222 !important;
 }
 .bd-description-wrap, .bd-footer{
-    background-color: #151515;
+    background-color        :             #151515;
 }
 .bd-controls .bd-addon-button:not(.bd-button-danger){
-    background-color: #636b75 !important;
+    background-color        :             #636b75 !important;
 }
 .bd-link{
-    color: #d3d3d3;
-    transition: 0.5s ease;
+    color                   :             #d3d3d3;
+    transition              :               0.5s ease;
 }
 .bd-meta, .bd-link{
-    font-size: 0px !important;
-    transition: 0.5s ease;
+    font-size               :               0px !important;
+    transition              :               0.5s ease;
 }
 .bd-link:hover{
-    text-decoration: none !important;
-    color: #d3d3d394;
-    transition: 0.5s ease;
+    text-decoration         :               none !important;
+    color                   :             #d3d3d394;
+    transition              :               0.5s ease;
 }
 .bd-addon-card:hover .bd-link, .bd-addon-card:hover .bd-meta{
-    transition: 0.5s ease;
-    font-size: 12px !important;
+    transition              :               0.5s ease;
+    font-size               :               12px !important;
 }
 .bd-button-danger{
-    position: relative;
-    top: 0.4px !important;
+    position                :               relative;
+    top                     :               0.4px !important;
 }
 
 
 /* simple modification for the close button in settings */
 .tools-kIrEGr .container-O54IuJ{
-    position: relative;
-    bottom: 23px !important;
-    transition: 0.5s ease;
-    right: 10px;
+    position                :               relative;
+    bottom                  :               23px !important;
+    transition              :               0.5s ease;
+    right                   :               10px;
 }
 .tools-kIrEGr .container-O54IuJ .keybind-13vtq8{
-    font-size: 0px;
+    font-size               :               0px;
 }
 .tools-kIrEGr .container-O54IuJ .keybind-13vtq8::after{
-    content: 'Close (ESC)';
-    font-size: 11px;
+    content                 :               'Close (ESC)';
+    font-size               :               11px;
 }
 
 
 /* removing some stuff in friends list to make it look better */
 .scroller-hE2gWq{
-    border: none;
+    border                  :               none;
 }
 .peopleList-2VBrVI{
-    overflow: visible scroll !important;
+    overflow                :               visible scroll !important;
 }
 .peopleList-2VBrVI::-webkit-scrollbar{
-    display: none;
+    display                 :               none;
 }
 
 
 /* modifying the send button */
 .button-y6hemj:focus-within .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:focus .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:hover .activeButtonChild-2hgLAO{
-    color: #5f5f5f !important;
+    color                   :             #5f5f5f !important;
 }
 .activeButtonChild-2hgLAO{
-    color: #d3d3d3;
+    color                   :             #d3d3d3;
 }
 .button-y6hemj, .activeButtonChild-2hgLAO{
-    bottom: 1.1px;
+    bottom                  :               1.1px;
 }
 
 
 /* dm channels margin */
 .channel-1Shao0 .interactive-1vLZ_I {
-    margin-bottom: 5px;
+    margin-bottom           :               5px;
 }
 
 
@@ -1283,138 +1293,137 @@ button[aria-label="Show Game Activity"]::before {
 /* adding glow effect on some stuff and some other details */
 
 .message-2CShn3 .markup-eYLPri:hover{
-    box-shadow: 0 0 0 2px hsla(0, 0%, 21%, 0.69), 0 3px 16px hsla(0, 0%, 38%, 0.69);
-    transition: 0.5s ease;
+    box-shadow              :               0 0 0 2px hsla(0, 0%, 21%, 0.69), 0 3px 16px hsla(0, 0%, 38%, 0.69);
+    transition              :               0.5s ease;
 }
 .message-2CShn3  .container-2sjPya .messageAttachment-CZp8Iv:hover, .imageWrapper-oMkQl4:hover{
-    box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.69);
-    transition: 0.5s ease;
-    border-radius: 10px;
+    box-shadow              :               0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.69);
+    transition              :               0.5s ease;
+    border-radius           :               10px;
 }
 .menu-1QACrS {
-    animation: box-shadow infinite 4s,
-    custom-menu-animation 250ms ease;
-    transform-origin: top;
-    border-radius: 12px;
+    animation               :               box-shadow infinite 4s, custom-menu-animation 250ms ease;
+    transform-origin        :               top;
+    border-radius           :               12px;
 }
 .menu-1QACrS{
-    border-radius: 10px;
+    border-radius           :               10px;
 }
 .menu-1QACrS .item-1OdjEX:not(.focused-3qFvc8) {
-    border-radius: 25px;
+    border-radius           :               25px;
 }
 .menu-1QACrS .item-1OdjEX:hover {
-    border-radius: 10px;
-    background-color: rgb(58, 58, 58);
+    border-radius           :               10px;
+    background-color        :             rgb(58, 58, 58);
 }
 .focused-3qFvc8{
-    border-radius: 10px;
-    background-color: rgb(58, 58, 58) !important;
+    border-radius           :               10px;
+    background-color        :             rgb(58, 58, 58) !important;
 }
 .scroller-1bVxF5 .customItem-2CxBSo .button-1zW0-r{
-    transition: 0.5s ease;
+    transition              :               0.5s ease;
 }
 .contentWrapper-3vHNP2{
-    animation: box-shadow infinite 4s;
+    animation               :               box-shadow infinite 4s;
     border-radius: 20px;
 }
 @keyframes box-shadow{
     0%{
-        box-shadow: 0 0 0 2px hsla(0, 0%, 17%, 0.69), 0 3px 16px hsla(0, 0%, 15%, 0.69);
-        transition: 0.5s ease;
+        box-shadow          :               0 0 0 2px hsla(0, 0%, 17%, 0.69), 0 3px 16px hsla(0, 0%, 15%, 0.69);
+        transition          :               0.5s ease;
     }
     50%{
-        box-shadow: 0 0 0 2px hsla(0, 0%, 17%, 0.69), 0 3px 16px hsla(0, 0%, 31%, 0.69);
-        transition: 0.5s ease;
+        box-shadow          :               0 0 0 2px hsla(0, 0%, 17%, 0.69), 0 3px 16px hsla(0, 0%, 31%, 0.69);
+        transition          :               0.5s ease;
     }
     100%{
-        box-shadow: 0 0 0 2px hsla(0, 0%, 17%, 0.69), 0 3px 16px hsla(0, 0%, 15%, 0.69);
-        transition: 0.5s ease;
+        box-shadow          :               0 0 0 2px hsla(0, 0%, 17%, 0.69), 0 3px 16px hsla(0, 0%, 15%, 0.69);
+        transition          :               0.5s ease;
     }
 }
 .message-2CShn3 .markup-eYLPri,.message-2CShn3  .container-2sjPya .messageAttachment-CZp8Iv, .imageWrapper-oMkQl4 {
-    transition: 0.5s ease;
+    transition              :               0.5s ease;
 }
 .markup-eYLPri code{
-    border-radius: 20px;
+    border-radius           :               20px;
 }
 .scrollerSpacer-3AqkT9{
-    height: 10px !important;
+    height                  :               10px !important;
 }
 
 
 /* fixing emoji picker colors */
 .wrapper-22rqw6, .inspector-DFKXwB{
-    background-color: transparent !important;
+    background-color        :               transparent !important;
 }
 #emoji-picker-tab{
-    background-color: #383838;
+    background-color        :             #383838;
 }
 .emojiPicker-6YCk8a .header-11eigE .searchBar-2M9mRP {
-    border-radius: 25px;
-    transition: 0.5s ease;
+    border-radius           :               25px;
+    transition              :               0.5s ease;
 }
 .emojiPicker-6YCk8a .header-11eigE .searchBar-2M9mRP:hover {
-    background-color: #1a1a1a !important;
-    transition: 0.5s ease;
+    background-color        :             #1a1a1a !important;
+    transition              :               0.5s ease;
 }
 .emojiPickerListWrapper-1T3YI3, .categorySection-3j71bm .wrapper-1NNaWG  {
-    background-color: #1a1a1a;
+    background-color        :             #1a1a1a;
 }
 .diversitySelectorOptions-3DhNYs {
-    background-color: #292929;
+    background-color        :             #292929;
 }
 .diversitySelectorOptions-3DhNYs {
-    background-color: #292929;
+    background-color        :             #292929;
 }
 .diversityEmojiItem-2bgZKv{
-    transition: 0.5s ease;
-    border-radius: 20px;
+    transition              :               0.5s ease;
+    border-radius           :               20px;
 }
 .diversityEmojiItem-2bgZKv:hover{
-    transition: 0.5s ease;
-    background-color: #535353;
-    border-radius: 5px;
+    transition              :               0.5s ease;
+    background-color        :             #535353;
+    border-radius           :               5px;
 }
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4{
-    transition: 0.5s ease;
-    background-color: #3b3b3b;
-    border-radius: 10px;
+    transition              :               0.5s ease;
+    background-color        :             #3b3b3b;
+    border-radius           :               10px;
 }
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .layout-1qmrhw:hover{
-    transition: 0.5s ease;
-    background-color: #2B2D30 !important;
+    transition              :               0.5s ease;
+    background-color        :             #2B2D30 !important;
 }
 
 
 /* discord nitro icon recolor in settings tab */
 [d="M1.84006 5.4367C2.19536 5.4367 2.49139 5.14651 2.49139 4.79823C2.49139 4.44996 2.19536 4.15977 1.84006 4.15977H1.48476C1.12947 4.15977 0.83329 4.44996 0.83329 4.79823C0.83329 5.14651 1.12947 5.4367 1.48476 5.4367H1.84006ZM15.282 13.1569C18.6574 11.6477 20.0785 7.81669 18.539 4.6241C17.4731 2.36029 15.2229 1.02527 12.8542 0.909088H6.16283C5.57062 0.909088 5.15606 1.37355 5.15606 1.89597C5.15606 2.47634 5.62989 2.88271 6.16283 2.88271H7.88006C8.23535 2.88271 8.53139 3.17289 8.53139 3.52117C8.53139 3.86945 8.23535 4.15977 7.88006 4.15977H3.67575C3.32046 4.15977 3.02428 4.44996 3.02428 4.79823C3.02428 5.14651 3.32046 5.4367 3.67575 5.4367H6.69578C7.05108 5.4367 7.34711 5.72702 7.34711 6.0753C7.34711 6.42358 7.05108 6.71376 6.69578 6.71376H4.80077C4.44547 6.71376 4.14943 7.00395 4.14943 7.35222C4.14943 7.7005 4.44547 7.99083 4.80077 7.99083H6.10357C6.16283 8.68738 6.34048 9.38394 6.63652 10.0224C8.11697 13.215 12.0252 14.6081 15.282 13.1569ZM9.22163 8.83321C8.36181 6.99779 9.18283 4.82663 11.0552 3.98379C12.9277 3.14096 15.1426 3.94576 16.0024 5.78119C16.8622 7.61661 16.0413 9.78777 14.1688 10.6306C12.2964 11.4734 10.0814 10.6686 9.22163 8.83321Z"]{
-    fill: #919191;
+    fill                    :             #919191;
 }
 [d="M14.0385 5.20456L15.2228 7.17818C15.2821 7.29423 15.2821 7.35232 15.2228 7.46837L14.0385 9.44199C13.9793 9.55803 13.8609 9.55803 13.8016 9.55803H11.4922C11.3738 9.55803 11.3146 9.49994 11.2554 9.44199L10.071 7.46837C10.0119 7.35232 10.0119 7.29423 10.071 7.17818L11.2554 5.20456C11.3146 5.08852 11.4331 5.08852 11.4922 5.08852H13.8016C13.9202 5.03042 13.9793 5.08852 14.0385 5.20456Z"]{
-    fill: #cecece;
+    fill                    :             #cecece;
 }
 
 
 /* invite thingy restyle */
 .container-1Gt1iQ .contentWrapper-3oy4Xo .scroller-Q9d9Di {
-   background-color: #151515;
+   background-color         :             #151515;
 }
 .container-1Gt1iQ .contentWrapper-3oy4Xo .scroller-Q9d9Di .flex-2S1XBF{
-    background-color: #222;
-    border-radius: 25px;
+    background-color        :             #222;
+    border-radius           :               25px;
 }
 
 
 /* phone number field fix thing */
 .phoneField-3NAPDv .countryButton-1cNDvB, .phoneField-3NAPDv .countryButton-1cNDvB .contents-3ca1mk .flex-2S1XBF {
-    background-color: #272727;
+    background-color        :             #272727;
 }
 .phoneField-3NAPDv .countryButton-1cNDvB:hover, .phoneField-3NAPDv .countryButton-1cNDvB:hover .contents-3ca1mk .flex-2S1XBF {
-    background-color: #424242;
+    background-color        :             #424242;
 }
 .phoneField-3NAPDv .countryButton-1cNDvB .contents-3ca1mk .flex-2S1XBF{
-    transition: 0.2s ease;
+    transition              :               0.2s ease;
 }
 .phoneField-3NAPDv .inputField-1iYysB{
     height                  :               80%;
@@ -2244,16 +2253,38 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     margin-right            :               0;
 }
 .membersGroup-2eiWxl {
-    height                  :               0px !important;
+    height                  :               0px;
     margin                  :               0px;
     padding                 :               0px;
     -webkit-transition      :               .4s ease;
     transition              :               .4s ease;
 }
 .members-3WRCEx:hover .membersGroup-2eiWxl {
-    height                  :               11.9px !important;
+    height                  :               11.9px;
     margin                  :               10px;
 }
 
 
 
+
+/* boost tab restyle */
+.layerContainer-2v_Sit .perksModal-CLcR1c{
+    background-color        :             #121212;
+}
+.layerContainer-2v_Sit .perksModal-CLcR1c .ctaBar-Nhk8yY{
+    background-color        :             #202020;
+}
+#app-mount .layerContainer-2v_Sit .perksModal-CLcR1c .ctaBar-Nhk8yY .actions-b9dB88 .shinyButton-2Q9MDB {
+    background-color        :             rgba(85, 85, 85, 0.288);
+}
+#app-mount .layerContainer-2v_Sit .perksModal-CLcR1c .ctaBar-Nhk8yY .actions-b9dB88 .shinyButton-2Q9MDB:hover {
+    background-color        :             rgba(85, 85, 85, 0.438);
+}
+.layerContainer-2v_Sit .perksModal-CLcR1c .wrapper-3Zq_cJ .action-MXk_HA .button-f2h6uQ{
+    display                 :               none;
+}
+
+.layerContainer-2v_Sit .root-2zfUH6 .closeContent-1uXQiy .container-O54IuJ{
+    margin-right            :               -61%;
+    margin-top              :               20px;
+}
