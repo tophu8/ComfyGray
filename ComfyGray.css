@@ -2206,7 +2206,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 
 /* banner fade out */
-.userPopout-2j1gM4 .banner-1YaD3N:after{
+.userPopout-2j1gM4 .banner-1YaD3N:after, #account .banner-1YaD3N:after{
     content                 :               "";
     position                :                absolute;
     bottom                  :               0;
@@ -2254,3 +2254,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     height                  :               11.9px !important;
     margin                  :               10px;
 }
+
+
+
