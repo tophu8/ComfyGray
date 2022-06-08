@@ -1244,20 +1244,23 @@ button[aria-label="Show Game Activity"]::before {
 
 
 /* simple modification for the close button in settings */
-.tools-kIrEGr .container-O54IuJ{
+#app-mount .tools-kIrEGr .container-O54IuJ{
     position                :               relative;
     bottom                  :               23px !important;
     transition              :               0.5s ease;
     right                   :               10px;
 }
-.tools-kIrEGr .container-O54IuJ .keybind-13vtq8{
+#app-mount .tools-kIrEGr .container-O54IuJ .keybind-13vtq8{
     font-size               :               0px;
 }
-.tools-kIrEGr .container-O54IuJ .keybind-13vtq8::after{
+#app-mount .tools-kIrEGr .container-O54IuJ .keybind-13vtq8::after{
     content                 :               'Close (ESC)';
     font-size               :               11px;
+    white-space             :               nowrap;
 }
-
+#app-mount #voice-\&-video-tab + .toolsContainer-25FL6V .tools-kIrEGr .container-O54IuJ{
+    margin-left             :               -20px;
+}
 
 /* removing some stuff in friends list to make it look better */
 .scroller-hE2gWq{
@@ -2287,4 +2290,59 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 .layerContainer-2v_Sit .root-2zfUH6 .closeContent-1uXQiy .container-O54IuJ{
     margin-right            :               -61%;
     margin-top              :               20px;
+}
+
+
+
+
+/* fixes tts preview button in accessibility tab(settings) */
+
+.ttsPreviewWrapper-1d5bI6 .lookFilled-yCfaCM, .bd-settings-title .bd-button, .bd-controls .bd-addon-views .bd-button.selected{
+    background-color        :             #333333;
+}
+.ttsPreviewWrapper-1d5bI6 .lookFilled-yCfaCM:hover{
+    background-color        :             #33333385;
+}
+/* fixes bd menus in settings */
+.bd-select-options .bd-select-option.selected{
+    background-color        :             #333;
+}
+.bd-select-options .bd-select-option{
+    transition              :               0.5s ease;
+}
+#app-mount .bd-select-options .bd-select-option:hover{
+    background-color        :             rgba(51, 51, 51, 0.705);
+}
+#app-mount .bd-select-options{
+    background-color        :             #232323;
+}
+/*  game overlay notifications restyle(settings) */
+.notificationSettings-3dppO6 .wrapper-SdcMKg .option-1QI4c9.selected-18Wszc {
+    background-color        :             #555;
+}
+.notificationSettings-3dppO6 .wrapper-SdcMKg{
+    border-color            :             #555;
+}
+.notificationSettings-3dppO6 .wrapper-SdcMKg .option-1QI4c9{
+    background-color        :             #232323;
+}
+.notificationSettings-3dppO6 .wrapper-SdcMKg .option-1QI4c9:hover{
+    background-color        :             rgba(68, 68, 68, 0.527);
+}
+.notificationSettings-3dppO6 .wrapper-SdcMKg .option-1QI4c9, .notificationSettings-3dppO6 .wrapper-SdcMKg .disabled-35mc5w{
+    transition              :               0.5s ease;
+}
+/* fixes request data button in the privacy & safety tab */
+#app-mount #privacy-\&-safety-tab .marginBottom40-fvAlAV .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-f2h6uQ{
+    border-color            :             #555;
+}
+#app-mount #privacy-\&-safety-tab .marginBottom40-fvAlAV .flex-2S1XBF.flex-3BkGQD.directionRow-2Iu2A9 .button-f2h6uQ:hover{
+    background-color        :             #555;
+}
+/* fixes radio button borders not having border radius like the ones in privacy $ safety tab(settings) */
+.itemFilled-1cPbtg:hover .radioBar-3w9XY-{
+    border-radius           :               35px;
+}
+.itemFilled-1cPbtg .radioBar-3w9XY-{
+    transition              :               0.5s ease;
 }
