@@ -8,17 +8,6 @@
 */
 
 
-/**
-* @name ComfyGray
-* @version 1.0
-* @author carrot#8812
-* @authorLink not-set
-* @description A theme with a nice shade of gray everywhere! Its super comfy.
-* @source not-set
-* @invite not-set
-*/
-
-
 
 
 
@@ -232,7 +221,7 @@
 
 /* adds watermark */
 :root{
-    --version-number: "2.0";
+    --version-number: "1.0";
 }
 .wordmarkWindows-2dq6rw svg {
    display:none;
@@ -849,45 +838,45 @@ button[aria-label="Show Game Activity"]::before {
 
 /* mentioned messages */
 .mentioned-Tre-dv{
-    transition: 0.5s ease;
-    background-color: #171717;
+    transition              :               0.5s ease;
+    background-color        :             #171717;
 }
 .message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover{
-    transition: 0.5s ease;
-    background-color: #1d1d1d;
+    transition              :               0.5s ease;
+    background-color        :             #1d1d1d;
 }
 .mentioned-Tre-dv:hover:before{
-    transition: 0.5s ease;
-    background-color: #575757;
+    transition              :               0.5s ease;
+    background-color        :             #575757;
 }
 .mentioned-Tre-dv:before{
-    transition: 0.5s ease;
-    background-color: #383838;
+    transition              :               0.5s ease;
+    background-color        :             #383838;
 }
 
 
 
 /* folder coloring */
 .closedFolderIconWrapper-3tRb2d, .folderIconWrapper-1oRIZr{
-    background-color: #444444 !important;
+    background-color        :             #444444 !important;
 }
 [d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"]{
-    color: rgba(255, 255, 255, 0.63);
+    color                   :             rgba(255, 255, 255, 0.63);
 }
 
 
 
 /* reactions */
 .reaction-2A2y9y.reactionMe-3I9gFK{
-    background-color: #1d1d1d;
-    border-color: #575757;
+    background-color        :             #1d1d1d;
+    border-color            :             #575757;
 }
 .autocomplete-3NRXG8 {
-    background-color: #1d1d1d !important;
+    background-color        :             #1d1d1d !important;
 }
 .autocomplete-3NRXG8 .selected-3H3-RC{
-    transition: 0.5s ease;
-    background-color: #262626;
+    transition              :               0.5s ease;
+    background-color        :             #262626;
 }
 
 
@@ -895,50 +884,50 @@ button[aria-label="Show Game Activity"]::before {
 
 
 /* focus look popouts modifying */
-.root-g14mjS{
-    background-color: #0f0f0f !important;
+#app-mount .root-g14mjS{
+    background-color        :             #0f0f0f;
 }
 .focusLock-2tveLW .flex-2S1XBF{
-    background-color: #171717;
+    background-color        :             #171717;
 }
 .root-cw9rWQ .option-1O-Hwt{
-    background-color: #171717;
-    transition: 0.5s ease;
-    margin-bottom: 10px;
-    border:none;
-    border-radius: 20px;
+    background-color        :             #171717;
+    transition              :               0.5s ease;
+    margin-bottom           :               10px;
+    border                  :               none;
+    border-radius           :               20px;
 }
 .root-cw9rWQ .option-1O-Hwt:hover{
     transition: 0.5s ease;
-    background-color: #333333;
+    background-color        :             #333333;
 }
 .root-g14mjS .header-1zd7se{
-    margin-bottom: 20px;
+    margin-bottom           :               20px;
 }
 .content-2hZxGK .problemInfo-1QppuA .root-cw9rWQ{
-    background-color: transparent;
+    background-color        :               transparent;
 }
 .checkbox-f1HnKB {
-    transition: 0.3s ease;
+    transition              :               0.3s ease;
 }
 
 
 
 /* user setting buttons */
 .lookFilled-yCfaCM.colorBrand-I6CyqQ {
-    background-color: #222222;
+    background-color        :             #222222;
 }
 .lookFilled-yCfaCM .contents-3ca1mk, .lookInverted-2mDUMi .contents-3ca1mk, .lookLink-15mFoz .contents-3ca1mk, .lookOutlined-3yKVGo .contents-3ca1mk{
-    overflow: visible;
+    overflow                :               visible;
 }
 .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
-    background-color: #333333;
+    background-color        :             #333333;
 }
 .userSettingsSecurity-2kODPN .isEnabled-20V6lG{
-    color:#2a7742;
+    color                   :             #2a7742;
 }
 .messagesWrapper-RpOMA3 ::-webkit-scrollbar{
-    display: none;
+    display                 :               none;
 }
 
 
@@ -947,156 +936,160 @@ button[aria-label="Show Game Activity"]::before {
 
 /* honestly have no clue man */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
-    background-color: #444444 !important;
+    background-color        :             #444444 !important;
 }
 .channel-1Shao0 .interactive-1vLZ_I {
-    transition: 0.5s ease;
+    transition              :               0.5s ease;
 }
 .channel-1Shao0 .interactive-1vLZ_I:hover{
-    transition: 0.5s ease;
+    transition              :               0.5s ease;
 }
 .muted-3KGUWb:hover {
-    background-color: #1d1d1d !important;
+    background-color        :             #1d1d1d !important;
 }
 .inner-NQg18Y .buttons-uaqb-5{
-    right: 5px;
+    right                   :               5px;
 }
 
 
 
 /* status picker */
 #status-picker{
-    margin-left: 10px;
+    margin-left             :               10px;
 }
 #status-picker .scrollerBase-_bVAAt {
-  display: grid;
+  display                   :               grid;
 }
 
 #status-picker>div>*:not(#status-picker-online, #status-picker-idle, #status-picker-dnd, #status-picker-invisible) {
-    grid-column: 1/5;
+    grid-column             :               1/5;
 }
 
 #status-picker .item-1OdjEX:not(#status-picker-custom-status, #status-picker-switch-account) .status-3TYC5W {display: none;}
-#status-picker .description-3Cwkxk {display: none;}
-#status-picker .separator-1So4YB {display: none;}
+#status-picker .description-3Cwkxk {
+    display                 :               none;
+}
+#status-picker .separator-1So4YB {
+    display                 :               none;
+}
 
 #status-picker .status-3TYC5W {
-  margin-left: 8px;
+  margin-left               :               8px;
 }
 
 #status-picker .customEmojiPlaceholder-3mRJqA,
 #status-picker .switchAccountsIcon-36imMT {
-  margin-left: 1px;
+  margin-left               :               1px;
 }
 
 #status-picker .mask-2Me5HY:not(.status-0f5Sr2 .status-2DiCMd) {
-  height: 78%; 
-  width: 78%;
-  margin-left: 3px;
+  height                    :               78%; 
+  width                     :               78%;
+  margin-left               :               3px;
 }
 
 #status-picker-online,
 #status-picker-idle,
 #status-picker-dnd {
-  margin-right: 20px;
+  margin-right              :               20px;
 }
 
 #status-picker-online .statusItem-2hiCNB:not(.status-0f5Sr2 .status-2DiCMd),
 #status-picker-idle .statusItem-2hiCNB:not(.status-0f5Sr2 .status-2DiCMd),
 #status-picker-dnd .statusItem-2hiCNB:not(.status-0f5Sr2 .status-2DiCMd),
 #status-picker-invisible .statusItem-2hiCNB:not(.status-0f5Sr2 .status-2DiCMd) {
-  padding: 8px 8px;
+  padding                   :               8px 8px;
 }
 
 #status-picker-custom-status .statusItem-2hiCNB:not(.status-0f5Sr2 .status-2DiCMd) {
-  padding: 6px 8px;
+  padding                   :               6px 8px;
 }
 
 #status-picker .customEmojiPlaceholder-3mRJqA:not(.status-0f5Sr2 .status-2DiCMd) {
-  background-image: none;
-  background-color: var(--interactive-normal);
-  mask: var(--icon) center/contain no-repeat;
-  -webkit-mask: var(--icon) center/contain no-repeat;
-  width: 22px;
-  height: 22px;
-  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M11.99,2C6.47,2,2,6.48,2,12s4.47,10,9.99,10C17.52,22,22,17.52,22,12S17.52,2,11.99,2z M8.5,8C9.33,8,10,8.67,10,9.5 S9.33,11,8.5,11S7,10.33,7,9.5S7.67,8,8.5,8z M16.75,14.75C15.8,16.39,14.03,17.5,12,17.5s-3.8-1.11-4.75-2.75 C7.06,14.42,7.31,14,7.69,14h8.62C16.7,14,16.94,14.42,16.75,14.75z M15.5,11c-0.83,0-1.5-0.67-1.5-1.5S14.67,8,15.5,8 S17,8.67,17,9.5S16.33,11,15.5,11z'/%3E%3C/svg%3E");
+  background-image          :               none;
+  background-color          :               var(--interactive-normal);
+  mask                      :               var(--icon) center/contain no-repeat;
+  -webkit-mask              :               var(--icon) center/contain no-repeat;
+  width                     :               22px;
+  height                    :               22px;
+  --icon                    :               url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M11.99,2C6.47,2,2,6.48,2,12s4.47,10,9.99,10C17.52,22,22,17.52,22,12S17.52,2,11.99,2z M8.5,8C9.33,8,10,8.67,10,9.5 S9.33,11,8.5,11S7,10.33,7,9.5S7.67,8,8.5,8z M16.75,14.75C15.8,16.39,14.03,17.5,12,17.5s-3.8-1.11-4.75-2.75 C7.06,14.42,7.31,14,7.69,14h8.62C16.7,14,16.94,14.42,16.75,14.75z M15.5,11c-0.83,0-1.5-0.67-1.5-1.5S14.67,8,15.5,8 S17,8.67,17,9.5S16.33,11,15.5,11z'/%3E%3C/svg%3E");
 }
 
 #status-picker .colorDefault-CDqZdO.focused-3qFvc8 .customEmojiPlaceholder-3mRJqA {
-  background: var(--interactive-active);
+  background                :               var(--interactive-active);
 }
 
 #status-picker .switchAccountsIcon-36imMT:not(.status-0f5Sr2 .status-2DiCMd) {
-  background-image: none;
-  background-color: var(--interactive-normal);
-  mask: var(--icon) center/contain no-repeat;
-  -webkit-mask: var(--icon) center/contain no-repeat;
-  width: 22px;
-  height: 22px;
-  --icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M17,20H4V7c0-0.55-0.45-1-1-1S2,6.45,2,7v13c0,1.1,0.9,2,2,2h13c0.55,0,1-0.45,1-1S17.55,20,17,20z M20,2H8 C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M14,5c1.66,0,3,1.34,3,3c0,1.66-1.34,3-3,3 s-3-1.34-3-3C11,6.34,12.34,5,14,5z M7.76,16c1.47-1.83,3.71-3,6.24-3s4.77,1.17,6.24,3H7.76z'/%3E%3C/g%3E%3C/svg%3E");
+  background-image          :               none;
+  background-color          :               var(--interactive-normal);
+  mask                      :               var(--icon) center/contain no-repeat;
+  -webkit-mask              :               var(--icon) center/contain no-repeat;
+  width                     :               22px;
+  height                    :               22px;
+  --icon                    :               url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3C/g%3E%3Cg%3E%3Cpath d='M17,20H4V7c0-0.55-0.45-1-1-1S2,6.45,2,7v13c0,1.1,0.9,2,2,2h13c0.55,0,1-0.45,1-1S17.55,20,17,20z M20,2H8 C6.9,2,6,2.9,6,4v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M14,5c1.66,0,3,1.34,3,3c0,1.66-1.34,3-3,3 s-3-1.34-3-3C11,6.34,12.34,5,14,5z M7.76,16c1.47-1.83,3.71-3,6.24-3s4.77,1.17,6.24,3H7.76z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 #status-picker .colorDefault-CDqZdO.focused-3qFvc8 .switchAccountsIcon-36imMT {
-  background: var(--interactive-active);
+  background                :               var(--interactive-active);
 }
 
 #status-picker-custom-status,
 #status-picker-switch-account,
 #status-picker-switch-account--manage-accounts {
-  margin-top: 12px !important;
+  margin-top                :               12px !important;
 }
 
 #status-picker-custom-status::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: -6px;
-  left: 2px;
-  width: 98%;
-  height: 1px;
+  content                   :               "";
+  background                :               var(--background-modifier-accent);
+  position                  :               absolute;
+  top                       :               -6px;
+  left                      :               2px;
+  width                     :               98%;
+  height                    :               1px;
 }
 
 #status-picker-switch-account::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: -6px;
-  left: 2px;
-  width: 98%;
-  height: 1px;
+  content                   :               "";
+  background                :               var(--background-modifier-accent);
+  position                  :               absolute;
+  top                       :               -6px;
+  left                      :               2px;
+  width                     :               98%;
+  height                    :               1px;
 }
 
 #status-picker-switch-account--manage-accounts::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: -7px;
-  left: 2px;
-  width: 98%;
-  height: 1px;
+  content                   :               "";
+  background                :               var(--background-modifier-accent);
+  position                  :               absolute;
+  top                       :               -7px;
+  left                      :               2px;
+  width                     :               98%;
+  height                    :               1px;
 }
 
 #status-picker-dnd::after,
 #status-picker-idle::after,
 #status-picker-online::after {
-  content: "";
-  background: var(--background-modifier-accent);
-  position: absolute;
-  top: 6px;
-  left: 50px;
-  width: 1px;
-  height: 24px;
+  content                   :               "";
+  background                :               var(--background-modifier-accent);
+  position                  :               absolute;
+  top                       :               6px;
+  left                      :               50px;
+  width                     :               1px;
+  height                    :               24px;
 }
 #status-picker:not(.status-0f5Sr2 .status-2DiCMd){
-  width: 235px;
-  left: 35px;
-  top: 15px;
-  border-bottom-left-radius: 0;
+  width                     :               235px;
+  left                      :               35px;
+  top                       :               15px;
+  border-bottom-left-radius :               0;
 }
 #status-picker{
-   background-color: rgba(39, 39, 39, 0.603) !important;
-   backdrop-filter: blur(6px);
-   box-shadow: none !important;
+   background-color         :             rgba(39, 39, 39, 0.603) !important;
+   backdrop-filter          :               blur(6px);
+   box-shadow               :               none !important;
 }
 
 
@@ -1104,69 +1097,69 @@ button[aria-label="Show Game Activity"]::before {
 
 /* add friends button/ tab styling */
 [aria-controls="add_friend-tab"]{
-    transition: 0.5s ease;
-    background-color: #444444 !important;
+    transition              :               0.5s ease;
+    background-color        :             #444444 !important;
 }
 [aria-controls="add_friend-tab"]:hover{
-    transition: 0.5s ease;
-    background-color: #292B2E !important;
+    transition              :               0.5s ease;
+    background-color        :             #292B2E !important;
 }
 .form-2oOOG9 .content-2hZxGK  .flex-2S1XBF {
-    background-color: transparent;
+    background-color        :               transparent;
 }
 .itemCard-3Etziu {
-    transition: 0.5s ease;
+    transition              :               0.5s ease;
 }
 .itemCard-3Etziu  .body-16rSsp {
-    background-color: transparent;
+    background-color        :               transparent;
 }
 .addFriendInputWrapper-kkoSV9{
-    transition: 0.5s ease;
-    border-radius: 25px;
-    background-color: #252525;
+    transition              :               0.5s ease;
+    border-radius           :               25px;
+    background-color        :             #252525;
 }
 .addFriendInputWrapper-kkoSV9:hover{
-    transition: 0.5s ease;
-    background-color: #121212;
-    border: 1px solid #444444;
+    transition              :               0.5s ease;
+    background-color        :             #121212;
+    border                  :               1px solid #444444;
 }
 .addFriendInputWrapper-kkoSV9:focus-within{
     transition: 0.5s ease;
-    border: 1px solid #6d6d6d !important;
+    border                  :               1px solid #6d6d6d !important;
 }
 .addFriendInput-1Ta-rO .inputDefault-3FGxgL {
-    border: none !important;
+    border                  :               none !important;
 }
 .addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL {
-    background-color: transparent !important;
+    background-color        :               transparent !important;
 }
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ, .addFriendInputWrapper-kkoSV9 .button-f2h6uQ:hover {
-    background-color: transparent !important;
-    transition: 0.5s ease;
+    background-color        :               transparent !important;
+    transition              :               0.5s ease;
 }
 
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ:hover .contents-3ca1mk {
-    transition: 1s ease;
-    color: rgb(155, 155, 155) !important;
+    transition              :               1s ease;
+    color                   :             rgb(155, 155, 155) !important;
 
 }
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ{
-    border-left: 1px solid #9b9b9b;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-left             :               1px solid #9b9b9b;
+    border-top-left-radius  :               0px;
+    border-bottom-left-radius:              0px;
 }
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ .contents-3ca1mk {
-    transition: 1s ease;
+    transition              :               1s ease;
 }
 .addFriendInputWrapper-kkoSV9.error-31k8Cx{
-    border-color: rgb(0, 132, 255);
+    border-color            :             rgb(0, 132, 255);
 }
 .peopleColumn-1wMU14 .header-30YxSJ .error-30DGjS{
-    color: rgb(0, 132, 255);
+    color:                                rgb(0, 132, 255);
 }
 .addFriendInputWrapper-kkoSV9 .button-f2h6uQ:hover{
-    transition: 0.5s ease;
-    border-left-color: rgba(155, 155, 155, 0.479) !important;
+    transition              :               0.5s ease;
+    border-left-color       :             rgba(155, 155, 155, 0.479) !important;
 }
 
 
@@ -2345,4 +2338,8 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 .itemFilled-1cPbtg .radioBar-3w9XY-{
     transition              :               0.5s ease;
+}
+
+#app-mount .layer-1Ixpg3 .focusLock-2tveLW .modal-3Crloo.root-g14mjS{
+    background-color        :               transparent;
 }
