@@ -2448,3 +2448,8 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 #appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2){
     display                 :               none;
 }
+
+/* hiding an expirement button because fuck im too lazy to fix it */
+.tree-3agP2X .scroller-3X7KbA [aria-label] + div{
+    display                 :               none;
+}
