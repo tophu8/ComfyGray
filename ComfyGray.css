@@ -2452,10 +2452,24 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 
 
-/* Hiding the light theme button */
+/* Disabling the light theme button in appearance tab */
 
-#appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2){
-    display                 :               none;
+#app-mount #appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2) .text-md-medium-2avxhQ::after{
+    content                 :               '  (disabled)';
+}
+#app-mount #appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2):hover{
+    border-radius           :               10px;
+    background-color        :             #111;
+}
+#app-mount #appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2){
+    border-radius           :               10px;
+    cursor                  :               not-allowed;
+    background-color        :             #111 !important;
+    border-color            :             rgba(255, 255, 255, 0.041);
+    color                   :             rgba(255, 255, 255, 0.137);
+}
+#app-mount #appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2):active{
+    pointer-events          :               none !important;
 }
 
 /* hiding an expirement button because fuck im too lazy to fix it */
