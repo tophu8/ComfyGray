@@ -163,44 +163,6 @@
 
 
 
-
-
-/* telling the user that compact mode is unsupported(it isnt.) */
-.compact-2Nkcau .messageContent-2t3eCI {
-    font-size: 0px;
-}
-.compact-2Nkcau .messageContent-2t3eCI::after {
-    content: "THIS THEME DOES NOT SUPPORT COMPACT MODE!!! PLEASE CHANGE THE THEME OR REVERT BACK TO COMFY!!";
-    font-size: 13px;
-    margin-top: 200px !important;
-    user-select: none;
-}
-.compact-2Nkcau .contents-2MsGLg{
-    text-indent: 0px;
-}
-.compact-2Nkcau .timestamp-p1Df1m,
-.compact-2Nkcau .username-h_Y3Us,
-.compact-2Nkcau .messageAttachment-CZp8Iv, 
-.compact-2Nkcau code, 
-.compact-2Nkcau .wrapper-1ZcZW-, 
-.compact-2Nkcau .repliedMessage-3Z6XBG,
-.compact-2Nkcau .blockquoteContainer-3VtvI1,
-.compact-2Nkcau .scrollbarGhostHairline-2LpzZ9,
-.compact-2Nkcau .PI-indicatorContainer,
-.compact-2Nkcau [id*="message-accessories-"],
-.compact-2Nkcau.hasThread-3h-KJV .contents-2MsGLg:before,
-.botTagCompact-1idyyC,
-.compact-2Nkcau .anchor-1MIwyf,
-.compact-2Nkcau .iconContainer-2rPbqG {
-    display: none;
-}
-
-
-
-
-
-
-
 /* main colors for the theme */
 :root{
     --background-primary:#121212;
@@ -1288,11 +1250,11 @@ button[aria-label="Show Game Activity"]::before {
 
 /* adding glow effect on some stuff and some other details */
 
-.message-2CShn3 .markup-eYLPri:hover{
+.cozyMessage-1DWF9U.message-2CShn3 .markup-eYLPri:hover{
     box-shadow              :               0 0 0 2px hsla(0, 0%, 21%, 0.69), 0 3px 16px hsla(0, 0%, 38%, 0.69);
     transition              :               0.5s ease;
 }
-.message-2CShn3  .container-2sjPya .messageAttachment-CZp8Iv:hover, .imageWrapper-oMkQl4:hover{
+.cozyMessage-1DWF9U.message-2CShn3  .container-2sjPya .messageAttachment-CZp8Iv:hover, .imageWrapper-oMkQl4:hover{
     box-shadow              :               0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.69);
     transition              :               0.5s ease;
     border-radius           :               10px;
@@ -2476,4 +2438,13 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 
 .recentMentionsPopout-2bI1ZN .messages-23can0>button:last-of-type {
     margin-left             :               auto;
+}
+
+
+
+
+/* Hiding the light theme button */
+
+#appearance-tab .marginTop8-24uXGp:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2){
+    display                 :               none;
 }
