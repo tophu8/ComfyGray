@@ -157,7 +157,7 @@
 
 /* makes text lighter? idk */
 *{
-    font-weight: 320 !important;
+    font-weight             :               320 !important;
 }
 
 
@@ -165,16 +165,16 @@
 
 /* main colors for the theme */
 :root{
-    --background-primary:#121212;
-    --background-secondary:#121212;
-    --color-brand-lighter: #383838;
+    --background-primary    :             #121212;
+    --background-secondary  :             #121212;
+    --color-brand-lighter   :             #383838;
     
 }
 
 /* text selection colors */
 ::selection{
-    color: #c2c2c2;
-    background-color: #5f5f5f;
+    color                   :             #c2c2c2;
+    background-color        :             #5f5f5f;
 }
 
 
@@ -183,26 +183,26 @@
 
 /* adds watermark */
 :root{
-    --version-number: "1.0";
+    --version-number        :               "1.0";
 }
 .wordmarkWindows-2dq6rw svg {
-   display:none;
+   display                  :               none;
 }
 .wordmarkWindows-2dq6rw::before{
-   content: 'ComfyGray';
-   font-size: 13px;
-   font-weight: 700;
-   top:4px;
-   left: -3px;
-   position: relative;
+   content                  :               'ComfyGray';
+   font-size                :               13px;
+   font-weight              :               700;
+   top                      :               4px;
+   left                     :               -3px;
+   position                 :               relative;
 }
 .wordmarkWindows-2dq6rw::after{
-    content: 'v' var(--version-number);
-    font-size: 11px;
-    margin-left: 2px;
-    top:4px;
-    left: -3px;
-    position: relative;
+    content                 :               'v' var(--version-number);
+    font-size               :               11px;
+    margin-left             :               2px;
+    top                     :               4px;
+    left                    :               -3px;
+    position                :               relative;
 }
 
 
@@ -210,7 +210,7 @@
 
 /* user controls settings coloring */
 .panels-3wFtMD{
-    background-color: #1b1b1b8e;
+    background-color        :             #1b1b1b8e;
 }
 
 
@@ -218,7 +218,7 @@
 
 /* removes some stupid gradient bugs */
 .form-3gdLxP::before, .children-3xh0VB:after, .option-ayUoaq:after{
-    content: none;
+    content                 :               none;
 }
 
 
@@ -226,29 +226,29 @@
 
 /* channel hover things :) */
 .container-ZMc96U.themed-Hp1KC_ {
-    background-color: #0f0f0f;
+    background-color        :             #0f0f0f;
 }
 .modeSelected-3DmyhH .content-1gYQeQ{
-    background-color: #1a1a1a;
-    border-radius: 5px !important;
+    background-color        :             #1a1a1a;
+    border-radius           :               5px !important;
 }
 .modeSelected-3DmyhH .channelName-3KPsGw{
-    color: rgba(255, 255, 255, 0.603);
+    color                   :             rgba(255, 255, 255, 0.603);
 }
 .wrapper-NhbLHG .content-1gYQeQ{
-    border-radius: 25px;
+    border-radius           :               25px;
 }
 .wrapper-NhbLHG:hover .content-1gYQeQ{
-    transition: 0.4s ease;
-    background-color: #383838a9 !important;
-    border-radius: 5px;
+    transition              :               0.4s ease;
+    background-color        :             #383838a9 !important;
+    border-radius           :               5px;
 }
 .wrapper-NhbLHG:hover .channelName-3KPsGw{
-    transition: 0.4s ease;
-    color: rgb(141, 141, 141);
+    transition              :               0.4s ease;
+    color                   :             rgb(141, 141, 141);
 }
 .content-1gYQeQ, .channelName-3KPsGw{
-    transition: 0.4s ease;
+    transition              :               0.4s ease;
 }
 
 
@@ -256,85 +256,85 @@
 
 /* wide screen settings */
 .sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
-    justify-content: unset;
-    flex: unset
+    justify-content         :               unset;
+    flex                    :               unset
 }
 .contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {
-    max-width: unset;
+    max-width               :               unset;
 } 
 .accountProfileCard-lbN7n- {
-    max-width: 750px;
+    max-width               :               750px;
 }
 .notificationSettings-1U0JsJ {
-    max-width: 45%;
+    max-width               :               45%;
 }
 .option-2eIyOn, .searchBox-pyIJJj{
-    transition: 0.20s ease;
+    transition              :               0.20s ease;
 }
  
 /* custom user profile settings made by me and my friend */
 .accountProfileCard-lbN7n- > .settingsBanner-1eDJ5w {
-    width: 100%;
-    height:300px;
-    border-radius: 10px;
-    filter:blur(1.3px) brightness(.4);
+    width                   :               100%;
+    height                  :               300px;
+    border-radius           :               10px;
+    filter                  :               blur(1.3px) brightness(.4);
 }
 .accountProfileCard-lbN7n- > .userInfo-regn9W, .accountProfileCard-lbN7n- > .background-3d_SjE {
-    width: 55%;
-    position: relative;
-    left: 6%;
-    bottom: 300px;
-    height: 100px;
+    width                   :               55%;
+    position                :               relative;
+    left                    :               6%;
+    bottom                  :               300px;
+    height                  :               100px;
 }
 .accountProfileCard-lbN7n- > .userInfo-regn9W .avatar-3mTjvZ {
-    left: -30px;
-    top:-10px;
+    left                    :               -30px;
+    top                     :               -10px;
 }
 .accountProfileCard-lbN7n- > .background-3d_SjE {
-    width: 95%;
-    left: 0px;
-    background-color:rgba(0, 0, 0, 0.26);
-    overflow-y: scroll;
-    overflow-x: hidden;
+    width                   :               95%;
+    left                    :               0px;
+    background-color        :             rgba(0, 0, 0, 0.26);
+    overflow-y              :               scroll;
+    overflow-x              :               hidden;
 }
 .accountProfileCard-lbN7n- > .background-3d_SjE::-webkit-scrollbar {
-    visibility: hidden;
+    visibility              :               hidden;
 }
 .accountProfileCard-lbN7n- {
-    max-height: 300px;
-    background-color: transparent;
-    width: 840px;
-    border-radius: 9px;
+    max-height              :               300px;
+    background-color        :               transparent;
+    width                   :               840px;
+    border-radius           :               9px;
 }
 .userInfo-regn9W {
-    margin-top:20px;
+    margin-top              :               20px;
 }
 .fieldList-in8WkP {
-    margin-top: 20px;
-    background-color:transparent;
+    margin-top              :               20px;
+    background-color        :               transparent;
 }
 .accountProfileCard-lbN7n- > .button-f2h6uQ {
-    position: relative;
-    width:900px;
-    left: 200px;
+    position                :               relative;
+    width                   :               900px;
+    left                    :               200px;
 }
 .avatar-3mTjvZ {
-    border:none;
-    background-color:transparent;
+    border                  :               none;
+    background-color        :               transparent;
 }
 .profileCardUsernameRow-1bb6fi{
-    position: relative;
-    right: 55px;
+    position                :               relative;
+    right                   :               55px;
 }
 .accountProfileCard-lbN7n- .button-f2h6uQ:nth-child(3){
-    position: relative;
-    left: 290px;
+    position                :               relative;
+    left                    :               290px;
 }
 .accountProfileCard-lbN7n- .container-1gYwHN{
-    position: relative;
-    left: -100%;
-    top: 230%;
-    margin-left: 15px
+    position                :               relative;
+    left                    :               -100%;
+    top                     :               230%;
+    margin-left             :               15px
 }
  
 
@@ -342,68 +342,68 @@
 
 /* makes all the pages(chat for example) margin */
 .sidebar-1tnWFu{
-    margin-right: 10px;
-    margin-left: 10px;
-    border-radius: 15px !important;
-    height: 99.3%;
+    margin-right            :               10px;
+    margin-left             :               10px;
+    border-radius           :               15px !important;
+    height                  :               99.3%;
 }
 .container-3XgAHv{
-    margin-right: 15px;
-    height: 99.4%;
-    border-radius: 15px;
+    margin-right            :               15px;
+    height                  :               99.4%;
+    border-radius           :               15px;
 }
 .threadSidebarOpen-1LSXvU{
-    border-radius: 15px !important;
+    border-radius           :               15px !important;
 }
  .guilds-2JjMmN {
      height: 99.%;
-     border-top-right-radius: 15px;
-     border-bottom-right-radius: 15px;
+     border-top-right-radius:               15px;
+     border-bottom-right-radius:            15px;
  }
  .tree-3agP2X{
-     border-bottom-right-radius: 15px;
-     margin-bottom: 7.5px;
+     border-bottom-right-radius:            15px;
+     margin-bottom          :               7.5px;
  }
  .chat-2ZfjoI{
-     margin-right: 10px;
-     height: 99.3%;
-     border-radius: 15px;
+     margin-right           :               10px;
+     height                 :               99.3%;
+     border-radius          :               15px;
  }
 .peopleColumn-1wMU14{
-    background-color: var(--background-primary);
+    background-color        :               var(--background-primary);
 }
 .container-2cd8Mz{
-    margin-right: 10px;
-    margin-bottom: 7.5px;
-    border-radius: 15px;
+    margin-right            :               10px;
+    margin-bottom           :               7.5px;
+    border-radius           :               15px;
 }
 .peopleListItem-u6dGxF{
-    transition: 0.5s ease;
-    margin-bottom: 6px !important;
-    border-radius: 25px;
-    border-color: transparent;
-    margin: 0 10px 0 20px;
-    padding: 16px 10px;
+    transition              :               0.5s ease;
+    margin-bottom           :               6px !important;
+    border-radius           :               25px;
+    border-color            :               transparent;
+    margin                  :               0 10px 0 20px;
+    padding                 :               16px 10px;
 }
 .pageWrapper-2PwDoS{
-    margin-right: 10px;
-    height: 99.3%;
-    border-radius: 15px;
+    margin-right            :               10px;
+    height                  :               99.3%;
+    border-radius           :               15px;
 }
 .content-1SgpWY .applicationStore-2nk7Lo{
-    margin-right: 10px;
-    height: 99.3%;
-    border-radius: 15px;
+    margin-right            :               10px;
+    height                  :               99.3%;
+    border-radius           :               15px;
 }
 .content-1SgpWY .applicationStore-2nk7Lo .scroller-29cQFV::-webkit-scrollbar{
-    display: none;
+    display                 :               none;
 }
 .shaker-bevRrZ .focusLock-2tveLW .root-2s1-ri, .shaker-bevRrZ .focusLock-2tveLW .root-2s1-ri .contents-1X8z-d{
-    background-color: #191919 !important;
+    background-color        :             #191919 !important;
 }
 .planOptionDiscount-2nex9n, .checkbox-f1HnKB.checked-1pZh2h {
-    background-color: #494949 !important;
-    border-color: rgb(56, 56, 56) !important;
+    background-color        :             #494949 !important;
+    border-color            :             rgb(56, 56, 56) !important;
     
 }
 
@@ -412,28 +412,28 @@
 
 /* circle buttons modification since the original looks like dog water */
 .circleIconButton-1VxDrg{
-    transition: all 0.2s ease-in;
-    border-width: 2px;
-    border-color: #383838;
-    border-radius: 50%;
-    border-style: solid;
+    transition              :               all 0.2s ease-in;
+    border-width            :               2px;
+    border-color            :             #383838;
+    border-radius           :               50%;
+    border-style            :               solid;
 }
 .circleIconButton-1VxDrg:hover{
-    border-radius: 25px;
-    border-width: 2px;
-    border-color: #ffffff;
-    border-style: solid;
-    transition: all 0.2s ease-in;
-    background-color: #383838;
+    border-radius           :               25px;
+    border-width            :               2px;
+    border-color            :             #ffffff;
+    border-style            :               solid;
+    transition              :               all 0.2s ease-in;
+    background-color        :             #383838;
 }
 .circleIconButton-1VxDrg:nth-child(1){
-    color:#383838
+    color                   :             #383838
 }
 .circleIconButton-1VxDrg:hover:nth-child(1){
-    color:white
+    color                   :             white
 }
 .tutorialContainer-2jwoiB + div .pill-1NRFie{
-    display: none;
+    display                 :               none;
 }
 
 
@@ -441,45 +441,45 @@
 /* custom textbox */
 .input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL),
 .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL), .input-3r5zZY, .input-2g-os5  {
-    background-color: #303030 !important;
-    transition: background-color 0.2s ease, border-color 0.2s ease !important;
-    border: 1px solid transparent !important;
-    outline: none !important;
+    background-color        :             #303030 !important;
+    transition              :               background-color 0.2s ease, border-color 0.2s ease !important;
+    border                  :               1px solid transparent !important;
+    outline                 :               none !important;
 }
 .input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):hover,
 .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):hover, .input-3r5zZY:hover, .input-2g-os5  {
-    border-color: #5a5a5a !important;
-    background-color: rgb(32, 32, 32) !important;
+    border-color            :             #5a5a5a !important;
+    background-color        :             rgb(32, 32, 32) !important;
 }
 .input-2g-os5:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):focus-within,
 .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL):focus-within, .input-3r5zZY:focus-within, .input-2g-os5  {
-    background-color: #444444c2 !important;
-    border-color: var(--color-brand-lighter) !important;
+    background-color        :             #444444c2 !important;
+    border-color            :               var(--color-brand-lighter) !important;
 }
 .scrollableContainer-15eg7h:not(.addFriendInputWrapper-kkoSV9 .inputWrapper-1YNMmM .inputDefault-3FGxgL) {
-    border: 1px solid transparent;
-    border-radius: 25px;
+    border                  :               1px solid transparent;
+    border-radius           :               25px;
 }
 .input-3r5zZY{
-    border-radius: 15px;
-    margin-bottom: 15px;
+    border-radius           :               15px;
+    margin-bottom           :               15px;
 }
 [class="colorMuted-20987_ size12-oc4dx4 cta-25g9OT"], .container-2rCwVJ .clear-1JYfB5{
-    display: none;
+    display                 :               none;
 }
 .searchBoxInput-P0mWHW{
-    color: white !important;
+    color                   :             white !important;
 }
 /* member list hover effect */
 .item-3XjbnG, .option-ayUoaq {
-    transition: 0.3s ease !important;
+    transition              :               0.3s ease !important;
 }
 .clickable-28SzVr .layout-1qmrhw{
-    border-radius: 25px;
-    transition: 0.4s ease !important;
+    border-radius           :               25px;
+    transition              :               0.4s ease !important;
 }
 .clickable-28SzVr:hover .layout-1qmrhw {
-    border-radius: 10px;
+    border-radius           :               10px;
 }
 
  
@@ -488,59 +488,68 @@
 
 /* makes the edit timestamp more specific */
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS, .latin24CompactTimeStamp-2pXUBq ) time::after {
-    content: " (" attr(aria-label) ")";
-    color: var(--text-muted);
-    font-size: 0.625rem;
-    font-weight: 400;
-    line-height: 1;
-    text-transform: lowercase;
+    content                 :               " (" attr(aria-label) ")";
+    color                   :               var(--text-muted);
+    font-size               :               0.625rem;
+    font-weight             :               400;
+    line-height             :               1;
+    text-transform          :               lowercase;
 }
 .edited-1v5nT8:not(.message-translate-indicator), .channelTextAreaDisabled-1p2fQv {
-    display: none;
+    display                 :               none;
 }
 
 
 
 /* bubble messages */
 .cozyMessage-1DWF9U .contents-2MsGLg>.markup-eYLPri:not(:empty) {
-    background-color: rgba(44, 44, 44, 0.5);
-    display: inline-block;
-    margin: 0;
-    max-width: 100%;
-    width: auto !important;
-    padding: 8px;
-    border-radius: 20px;
+    background-color        :             rgba(44, 44, 44, 0.5);
+    display                 :               inline-block;
+    margin                  :               0;
+    max-width               :               100%;
+    width                   :               auto !important;
+    padding                 :               8px;
+    border-radius           :               20px;
 }
 .welcomeCTAButtonOuter-3pJkMq {
-    background-color: #191919 !important;
-    border: 1px solid #444444;
-    margin-top: 5px;
-    border-radius: 25px !important;
-    transition: 0.5s ease;
+    background-color        :             #191919 !important;
+    border                  :               1px solid #444444;
+    margin-top              :               5px;
+    border-radius           :               25px !important;
+    transition              :               0.5s ease;
 }
 .welcomeCTAButtonOuter-3pJkMq:hover {
-    background-color: #252525 !important;
-    border: 1px solid #444444;
-    margin-top: 5px;
-    border-radius: 5px !important;
-    transition: 0.5s ease;
+    background-color        :             #252525 !important;
+    border                  :               1px solid #444444;
+    margin-top              :               5px;
+    border-radius           :               5px !important;
+    transition              :               0.5s ease;
 }
 
 
 /* adds border radius to images */
 .imageWrapper-oMkQl4{
-    border-radius: 10px;
+    border-radius           :               10px;
 }
  
  /* Settings/Deafen/Mute Buttons Animated */
-.button-12Fmur:hover .contents-3ca1mk {animation: UserModalButtons 0.5s normal ease;}
-.container-YkUktl .noWrap-hBpHBz {width: 100px;opacity: 1;}
-.button-12Fmur {border-radius:10px;transition: 0.2s;}
-.button-12Fmur:hover {padding-bottom: 0px;transition: 0.2s;}
+.button-12Fmur:hover .contents-3ca1mk {
+    animation               :               UserModalButtons 0.5s normal ease;
+}
+.container-YkUktl .noWrap-hBpHBz {
+    width                   :               100px;
+    opacity                 :               1;
+}
+.button-12Fmur {
+    border-radius           :               10px;transition: 0.2s;
+}
+.button-12Fmur:hover {
+    padding-bottom          :               0px;transition: 0.2s;
+}
 @keyframes UserModalButtons {
-    0% {transform: translateY(0px);}
-    50% {transform: translateY(-5px);}
-    100% {transform: translateY(0px);}
+    0% {transform           :               translateY(0px);}
+    50% {transform          :               translateY(-5px);}
+    100% {transform         :               translateY(0px);}
 }
 
 
@@ -549,46 +558,46 @@
 
 /* turns jump to present bar into a button */
 [class*="jumpToPresentBar"] {
-    display: contents;
+    display                 :               contents;
 }
 [class*="jumpToPresentBar"] > button:first-child {
-    display: none;
+    display                 :               none;
 }
 [class*="jumpToPresentBar"] > button:last-child {
-    position: absolute;
-    z-index: 1;
-    bottom: 24px;
-    right: 22px;
-    padding: 8px !important;
-    height: auto;
-    background-color: #414141;
-    box-shadow: var(--elevation-high);
-    border-radius: 100px;
-    display: flex;
-    font-size: 0px;
-    color: transparent;
-    transition: font-size .2s .1s, color .2s, padding .4s .1s;
+    position                :               absolute;
+    z-index                 :               1;
+    bottom                  :               24px;
+    right                   :               22px;
+    padding                 :               8px !important;
+    height                  :               auto;
+    background-color        :             #414141;
+    box-shadow              :               var(--elevation-high);
+    border-radius           :               100px;
+    display                 :               flex;
+    font-size               :               0px;
+    color                   :               transparent;
+    transition              :               font-size .2s .1s, color .2s, padding .4s .1s;
 }
 [class*="jumpToPresentBar"] > button svg {
-    order: -1;
-    margin: 0px;
-    height: 24px;
-    width: 24px;
-    top: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    color: #FFFFFF;
-    transition: margin .6s;
+    order                   :               -1;
+    margin                  :               0px;
+    height                  :               24px;
+    width                   :               24px;
+    top                     :               auto;
+    margin-right            :               0px;
+    margin-left             :               0px;
+    color                   :             #FFFFFF;
+    transition              :               margin .6s;
 }
 [class*="jumpToPresentBar"]:hover > button {
-    padding: 8px 18px !important;
-    font-size: 14px;
-    color: #FFFFFF;
-    transition: font-size .2s, color .2s .1s, padding .4s;
+    padding                 :               8px 18px !important;
+    font-size               :               14px;
+    color                   :             #FFFFFF;
+    transition              :               font-size .2s, color .2s .1s, padding .4s;
 }
 [class*="jumpToPresentBar"]:hover > button svg {
-    margin-right: 2px;
-    margin-left: -6px;
+    margin-right            :               2px;
+    margin-left             :               -6px;
 }
 
 
@@ -596,15 +605,15 @@
 
 /* animates popout menus */
 .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
-    animation: custom-menu-animation 250ms ease;
-    transform-origin: top;
+    animation               :               custom-menu-animation 250ms ease;
+    transform-origin        :               top;
 }
 @keyframes custom-menu-animation {
     from {
-        transform: scaleY(0);
+        transform           :               scaleY(0);
     }
     to {
-        transform: scaleY(1);
+        transform           :               scaleY(1);
     }
 }
 
@@ -613,17 +622,17 @@
 
 /* adjusts winbuttons */
 .item-1OdjEX {
-    transition: 0.3s ease;
+    transition              :               0.3s ease;
 }
 .winButton-3UMjdg{
-    right: 8.5px;
-    border-radius: 5px;
-    transition: 0.5s ease;
-    margin-right: 3px;
-    margin-top: 4px;
+    right                   :               8.5px;
+    border-radius           :               5px;
+    transition              :               0.5s ease;
+    margin-right            :               3px;
+    margin-top              :               4px;
 }
 .typeWindows-2-g3UY{
-    margin-bottom: 5px;
+    margin-bottom           :               5px;
 }
 
 
@@ -632,89 +641,89 @@
 /* spin animated on home button click */
 @keyframes spin {
     0% {
-        transform: rotate(0deg);
+        transform           :               rotate(0deg);
     }
     20% {
-        transform: rotate(-20deg);
+        transform           :               rotate(-20deg);
     }
     70% {
-        transform: rotate(380deg);
+        transform           :               rotate(380deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform           :               rotate(360deg);
     }
 }
 .pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
-    animation: spin 0.8s ease;
+    animation               :               spin 0.8s ease;
 }
 
 
  
 /* user controls */
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
-    position: fixed;
-    bottom: calc(0% + 155px);
-    left: 10px;
-    width: 30px;
-    z-index: 101;
-    max-height: 150px;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: var(--radius-primary);
-    flex-direction: column;
-    padding: 0px 10px;
+    position                :               fixed;
+    bottom                  :               calc(0% + 155px);
+    left                    :               10px;
+    width                   :               30px;
+    z-index                 :               101;
+    max-height              :               150px;
+    justify-content         :               space-evenly;
+    align-items             :               center;
+    border-radius           :               var(--radius-primary);
+    flex-direction          :               column;
+    padding                 :               0px 10px;
 }
 
 .container-YkUktl:last-child .flex-2S1XBF>button {
-    padding: 25px !important;
-    margin: 0px;
-    color: #747474;
-    border-radius: var(--radius-primary);
-    transition: ease 0.3s;
+    padding                 :               25px !important;
+    margin                  :               0px;
+    color                   :             #747474;
+    border-radius           :               var(--radius-primary);
+    transition              :               ease 0.3s;
 }
 
 .container-YkUktl:last-child .flex-2S1XBF>button:last-child {
-    margin-top: 5px;
-    padding: 25px !important;
-    position: fixed;
-    bottom: calc(0% + 90px);
-    color: #747474;
-    border-radius: 15px;
-    transition: ease 0.3s;
+    margin-top              :               5px;
+    padding                 :               25px !important;
+    position                :               fixed;
+    bottom                  :               calc(0% + 90px);
+    color                   :             #747474;
+    border-radius           :               15px;
+    transition              :               ease 0.3s;
 }
 
 .container-YkUktl:last-child .flex-2S1XBF>button:hover,
 .container-YkUktl:last-child .flex-2S1XBF>button:last-child:hover {
-    color: #fff;
-    border-radius: 50%;
+    color                   :             #fff;
+    border-radius           :               50%;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child>.avatarWrapper-1B9FTW {
-    position: fixed;
-    bottom: calc(0% + 20px);
-    left: 13.5px;
+    position                :               fixed;
+    bottom                  :               calc(0% + 20px);
+    left                    :               13.5px;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD {
-    width: 55px !important;
-    height: 55px !important;
-    border-radius: 50% !important;
+    width                   :               55px !important;
+    height                  :               55px !important;
+    border-radius           :               50% !important;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .avatar-1EWyVD>svg {
-    width: 55px;
-    height: 55px;
-    border-radius: 50% !important;
+    width                   :               55px;
+    height                  :               55px;
+    border-radius           :               50% !important;
 }
 
 .panels-3wFtMD>div:last-child {
-    margin-bottom: 0px;
-    height: 0;
-    width: 0;
+    margin-bottom           :               0px;
+    height                  :               0;
+    width                   :               0;
 }
  
 .guilds-2JjMmN .scrollerBase-_bVAAt {
-    max-height: calc(100% - 275px) !important;
+    max-height              :               calc(100% - 275px) !important;
 }
 
 
@@ -724,40 +733,40 @@
 /* Game activity toggle */
 button[aria-label="Hide Game Activity"],
 button[aria-label="Show Game Activity"] {
-    border-radius: 10px 10px 0px 0px !important;
+    border-radius           :               10px 10px 0px 0px !important;
 }
 
 button[aria-label="Hide Game Activity"]:hover,
 button[aria-label="Show Game Activity"]:hover {
-    border-radius: 50% !important;
+    border-radius           :               50% !important;
 }
 
 button[aria-label="Hide Game Activity"]::after,
 button[aria-label="Show Game Activity"]::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0px;
-    z-index: -101;
-    border-radius: 10px 10px 0px 0px !important;
+    content                 :               "";
+    position                :               absolute;
+    width                   :               50px;
+    height                  :               50px;
+    left                    :               0px;
+    z-index                 :               -101;
+    border-radius           :               10px 10px 0px 0px !important;
 }
  
 button[aria-label="Hide Game Activity"]::before,
 button[aria-label="Show Game Activity"]::before {
-    content: "";
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: -10px;
-    z-index: -101;
-    top: -20px;
+    content                 :               "";
+    position                :               absolute;
+    width                   :               70px;
+    height                  :               70px;
+    left                    :               -10px;
+    z-index                 :               -101;
+    top                     :               -20px;
 }
 .tree-3agP2X, .scroller-3X7KbA {
-    background-color: #121212;
+    background-color        :             #121212;
 }
 .platform-osx .scroller-3X7KbA, .platform-win .scroller-3X7KbA{
-    padding-top: 10px;
+    padding-top             :               10px;
 }
  
 
@@ -766,32 +775,32 @@ button[aria-label="Show Game Activity"]::before {
 
 /* typing/reply bar modifications */
 .typing-2J1mQU{
-    bottom: 98.5%;
-    border-radius: 30px;
-    background-color: #383838;
-    margin-bottom: 3px;
-    width: 97.6%;
-    left: 18px;
-    max-width: 97.6%;
+    bottom                  :               98.5%;
+    border-radius           :               30px;
+    background-color        :             #383838;
+    margin-bottom           :               3px;
+    width                   :               97.6%;
+    left                    :               18px;
+    max-width               :               97.6%;
 }
 .replyBar-1oi75v{
-    background-color: #383838;
-    border-radius: 30px;
-    margin-bottom: 3px;
+    background-color        :             #383838;
+    border-radius           :               30px;
+    margin-bottom           :               3px;
 }
 .cooldownWrapper-2k1jHK{
-    position: relative;
-    right: 1%;
+    position                :               relative;
+    right                   :               1%;
 }
 .form-3gdLxP{
-    top: 13px;
-    margin-top: -10px;
+    top                     :               13px;
+    margin-top              :               -10px;
 }
 .form-3gdLxP{
-    margin-top: 19px;
+    margin-top              :               19px;
 }
 .scrollerSpacer-3AqkT9{
-    height: 1px;
+    height                  :               1px;
 }
 
 
