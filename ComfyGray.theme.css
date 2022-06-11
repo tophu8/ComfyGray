@@ -29,19 +29,16 @@
 /* home icon */
 @import url(https://objectiveslayer.github.io/ComfyGray/addons/homeicon.css);
 
+/* border roles(makes the text and border the same color as the role color) */
+@import url(https://objectiveslayer.github.io/ComfyGray/addons/roles.css);
+
+/* floating server list, Remove the comment if you want it */
+@import url(https://objectiveslayer.github.io/ComfyGray/addons/floating%20guild%20list.css);
+/*
 
 /* add import links below this */
 
 
 
 
-
-
 /* add custom css below this */
-
-
-
-
-
-
-
