@@ -1562,7 +1562,7 @@ button[aria-label="Show Game Activity"]::before {
     display                 :               none;
 }
 .root-8LYsGj .relationshipButtons-3ByBpj{
-    margin-top: 7px;
+    margin-top              :               7px;
     z-index                 :               9999;
 }
 .userInfoSection-2u2hir{
@@ -2475,4 +2475,30 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 /* hiding an expirement button because fuck im too lazy to fix it */
 .tree-3agP2X .scroller-3X7KbA [aria-label] + div{
     display                 :               none;
+}
+
+
+/* fixing some bugs in full user popout */
+.focusLock-2tveLW[aria-label] .root-8LYsGj .date-YN6TCS{
+    position                :               relative;
+    top: 59px;
+    margin-left             :               65%;
+}
+.focusLock-2tveLW[aria-label] .root-8LYsGj .nameTag-2Nlmsy  {
+    margin-left             :               30px;
+}
+.focusLock-2tveLW[aria-label] .root-8LYsGj .badgeList-2aoHPw{
+    margin-left             :               1px;
+}
+.focusLock-2tveLW[aria-label] .root-8LYsGj .nameTagNoCustomStatus-3ocqoK + .date-YN6TCS{
+    margin-left             :               30px;
+    margin-bottom           :               60px;
+}
+
+/* fixing unread messages bars */
+.divider-IqmEqJ, .unreadPill-3nEWYM, .newMessagesBar-1hF-9G{
+    box-shadow              :               0 0 10px rgb(63, 63, 63);
+}
+.newMessagesBar-1hF-9G{
+    background-color        :             rgb(63, 63, 63);
 }
