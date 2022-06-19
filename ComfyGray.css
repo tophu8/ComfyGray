@@ -404,7 +404,6 @@
 .planOptionDiscount-2nex9n, .checkbox-f1HnKB.checked-1pZh2h {
     background-color        :             #494949 !important;
     border-color            :             rgb(56, 56, 56) !important;
-    
 }
 
 
@@ -2473,7 +2472,7 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 
 /* hiding an expirement button because fuck im too lazy to fix it */
-.tree-3agP2X .scroller-3X7KbA [aria-label] + div{
+.tree-3agP2X .scroller-3X7KbA [aria-label] + div:not(.tutorialContainer-2jwoiB){
     display                 :               none;
 }
 
