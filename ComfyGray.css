@@ -12,6 +12,15 @@
 
 
 /* making it so dark and light mode are the same (since the theme is only gray) */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
+:root {
+    --settingsiconssize     :               18px;
+    --settingsiconsgap      :               14px;
+}
+
+
  
 .theme-dark,.theme-light {
     --header-primary        :             #fff;
@@ -2500,4 +2509,35 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
 }
 .newMessagesBar-1hF-9G{
     background-color        :             rgb(63, 63, 63);
+}
+
+
+
+/* when youre offline, it shows a less cruel and scary message. */
+
+.tipTitle-3FYEQp {
+	content: "";
+	font-size               :               0px;
+}
+.tipTitle-3FYEQp::before {
+	content                 :               "Hey...";
+	font-size: 12px;
+}
+.tip-1AwED_ {
+	content                 :               "";
+	font-size               :               0px;
+}
+.tip-1AwED_::before {
+	content                 :               "You're Offline :c";
+	font-size               :               16px;
+}
+.problems-CvGwpb.slideIn-VAD-dp {
+	display                 :               none;
+}
+.container-2RRFHK.fixClipping-3GOd_d {
+	background              :             rgba(0, 0, 0, 0.1);
+	backdrop-filter         :               blur(5px);
+}
+body #app-mount .tooltip-14MtrL{
+    filter                  :               drop-shadow(0 0 2px rgba(153, 153, 153, 0.705))
 }
