@@ -15,9 +15,9 @@
 
 - ### [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
 
-  - download the theme file
-  - place it in the BetterDiscord themes folder || folder directory : %appdata%/betterdiscord/themes
-  - enable ComfyGray in the themes tab
+  - download the theme file.
+  - place it in the BetterDiscord themes folder || folder directory : %appdata%/betterdiscord/themes.
+  - enable ComfyGray in the themes tab.
 
 ## Credits
 
