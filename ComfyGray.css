@@ -2587,3 +2587,115 @@ body #app-mount .tooltip-14MtrL{
 .item-3XjbnG[aria-controls="logout-tab"] .tabBarItemContainer-2HdIlr svg{
     display: none;
 }
+
+/* Emoji Auto-Fill Animation */
+.base-2v-uc0 {
+    transition: all 0.5s;
+}
+.scroller-18M1mG .clickable-2V8YKY .base-2v-uc0:hover {
+    transition: all 0s;
+    transform: scale(1.01);
+}
+.scroller-18M1mG .clickable-2V8YKY{
+    width: 98%;
+    margin-left: .7%;
+}
+
+
+
+/*Embeds*/
+:root {
+    --embed-border-radius: 8px;
+}
+.embed-hKpSrO {
+    border-radius: var(--embed-border-radius);
+}
+.embed-hKpSrO code {
+    background: var(--background-secondary);
+}
+:root {
+    --embed-line-width: 256px;
+}
+.embedFull-1HGV2S {
+    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+    background: var(--background-secondary);
+}
+.grid-1aWVsE {
+    margin-left: calc( -1 * var(--embed-line-width));
+    z-index: 1;
+}
+.embedFull-1HGV2S:after, .embedFull-1HGV2S:before {
+    content: "";
+    height: 100%;
+    width: var(--embed-line-width);
+    position: absolute;
+    top: 0;
+    left: calc(-1 * var(--embed-line-width));
+}
+.embedFull-1HGV2S:after {
+    background: linear-gradient(to right, transparent, var(--background-secondary));
+}
+.embedFull-1HGV2S:before {
+    background: var(--background-secondary);
+    opacity: .8;
+}
+
+/* Maximize, Minimize, Close Buttons */
+.titleBar-1it3bQ> :not(:first-child) {
+	margin: 5px 0 0px -7px;
+	border-radius: 5px;
+}
+
+.winButton-3UMjdg>svg {
+	display: none;
+}
+
+.winButton-3UMjdg:hover {
+	background-color: var(--background-teritary);
+}
+
+.winButton-3UMjdg {
+	pointer-events: none;
+	transform: translateX(3px) !important;
+}
+
+.winButton-3UMjdg::after {
+    transition: 0.3s ease;
+	content: "";
+	padding: 7px;
+	border-radius: 50px;
+	pointer-events: fill;
+}
+
+/* Close Button */
+.winButtonClose-3Q8ZH5 {
+	margin-right: 3px;
+}
+
+.winButtonClose-3Q8ZH5::after {
+    transition: 0.3s ease;
+	background-color: #FF605C;
+}
+
+.winButtonClose-3Q8ZH5:hover::after {
+	background-color: rgba(255, 96, 92, 0.5);
+}
+
+/* Maximize Button */
+.winButtonMinMax-3RsPUg:nth-child(3)::after {
+	background-color: #FFBD44;
+}
+
+.winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+	background-color: rgba(255, 189, 68, 0.5);
+}
+
+/* Minimize Button */
+.winButtonMinMax-3RsPUg:nth-child(2n)::after {
+    transition: 0.3s ease;
+	background-color: #00CA4E
+}
+
+.winButtonMinMax-3RsPUg:nth-child(2n):hover::after {
+	background-color: rgba(0, 202, 78, 0.5);
+}
