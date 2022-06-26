@@ -165,7 +165,7 @@
 
 
 /* makes text lighter? idk */
-*{
+*:not(strong){
     font-weight             :               320 !important;
 }
 
@@ -2640,62 +2640,3 @@ body #app-mount .tooltip-14MtrL{
     opacity: .8;
 }
 
-/* Maximize, Minimize, Close Buttons */
-.titleBar-1it3bQ> :not(:first-child) {
-	margin: 5px 0 0px -7px;
-	border-radius: 5px;
-}
-
-.winButton-3UMjdg>svg {
-	display: none;
-}
-
-.winButton-3UMjdg:hover {
-	background-color: var(--background-teritary);
-}
-
-.winButton-3UMjdg {
-	pointer-events: none;
-	transform: translateX(3px) !important;
-}
-
-.winButton-3UMjdg::after {
-    transition: 0.3s ease;
-	content: "";
-	padding: 7px;
-	border-radius: 50px;
-	pointer-events: fill;
-}
-
-/* Close Button */
-.winButtonClose-3Q8ZH5 {
-	margin-right: 3px;
-}
-
-.winButtonClose-3Q8ZH5::after {
-    transition: 0.3s ease;
-	background-color: #FF605C;
-}
-
-.winButtonClose-3Q8ZH5:hover::after {
-	background-color: rgba(255, 96, 92, 0.5);
-}
-
-/* Maximize Button */
-.winButtonMinMax-3RsPUg:nth-child(3)::after {
-	background-color: #FFBD44;
-}
-
-.winButtonMinMax-3RsPUg:nth-child(3):hover::after {
-	background-color: rgba(255, 189, 68, 0.5);
-}
-
-/* Minimize Button */
-.winButtonMinMax-3RsPUg:nth-child(2n)::after {
-    transition: 0.3s ease;
-	background-color: #00CA4E
-}
-
-.winButtonMinMax-3RsPUg:nth-child(2n):hover::after {
-	background-color: rgba(0, 202, 78, 0.5);
-}
