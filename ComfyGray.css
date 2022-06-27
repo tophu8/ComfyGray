@@ -2675,3 +2675,45 @@ body #app-mount .tooltip-14MtrL{
     content: "Jump to Message";
     background: transparent;
 }
+body #app-mount div.mention-3XBnnZ{
+    background-color: #666;
+    
+}   
+
+
+/* tooltip fade in animation */
+
+.layerContainer-2v_Sit .tooltip-14MtrL.tooltipRight-2TSb42 {
+    animation: fadeFromRight 140ms;
+}
+
+.layerContainer-2v_Sit .tooltip-14MtrL.tooltipBottom-2WzfVx {
+    animation: fadeFromBottom 140ms;
+}
+
+.layerContainer-2v_Sit .tooltip-14MtrL[class*="tooltipLeft-"] {
+    animation: fadeFromLeft 140ms;
+}
+
+.layerContainer-2v_Sit .tooltip-14MtrL.tooltipTop-1wv5UJ{
+    animation: fadeFromTop 140ms;
+}
+@keyframes fadeFromTop {
+    0% {opacity: 0;transform: translateY(-50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+@keyframes fadeFromRight {
+    0% {opacity: 0;transform: translateX(50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+@keyframes fadeFromBottom {
+    0% {opacity: 0;transform: translateY(50%);}
+    100% {opacity: 1;transform: none;}
+}
+
+@keyframes fadeFromLeft {
+    0% {opacity: 0;transform: translateX(-50%);}
+    100% {opacity: 1;transform: none;}
+}
