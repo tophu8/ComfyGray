@@ -179,10 +179,7 @@
     font-weight             :               320 !important;
 }
 
-/* gives everything text shadow */
-* {
-    text-shadow: 0 0 10px currentColor;
-}
+
 
 
 
