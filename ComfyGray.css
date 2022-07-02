@@ -928,8 +928,11 @@ button[aria-label="Show Game Activity"]::before {
 
 
 /* honestly have no clue man */
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub{
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub, #bd-pub-button:hover{
     background-color        :             #444444 !important;
+}
+#bd-pub-button{
+    border                  :               none;
 }
 .channel-1Shao0 .interactive-1vLZ_I {
     transition              :               0.5s ease;
