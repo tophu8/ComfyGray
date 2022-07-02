@@ -1,4 +1,14 @@
 /**
+    * @name ComfyGray
+    * @version 1.0
+    * @author carrot#8812
+    * @description A theme with a nice shade of gray everywhere! Its super comfy.
+    * @source not-set
+    * @invite not-set
+*/
+
+
+/**
 * @name ComfyGray
 * @version 1.0
 * @author carrot#8812
@@ -165,10 +175,14 @@
 
 
 /* makes text lighter? idk */
-*:not(strong:not([class^="typing-user-"])){
+*:not(.markup-eYLPri strong, .bold-ia41Lc){
     font-weight             :               320 !important;
 }
 
+/* gives everything text shadow */
+* {
+    text-shadow: 0 0 10px currentColor;
+}
 
 
 
@@ -1612,7 +1626,7 @@ button[aria-label="Show Game Activity"]::before {
     position                :               absolute;
     right                   :               0;
     width                   :               unset;
-    min-width               :               unset;
+    min-width               :               65px;
     height                  :               100%;
 }
 :not(.ChannelDms-channelmembers-wrap) .members-3WRCEx {
@@ -1660,19 +1674,6 @@ to {
     padding-right           :               8px;
 }
 }
-
-
-/*
-[data-author-id='907003824370229340'] .header-2jRmjb .username-h_Y3Us::after, 
-[data-user-id="907003824370229340"] + .header-1dhDWV::after, 
-[data-user-id="907003824370229340"] + .text-3j8t_e .username-3JLfHz::after, 
-[data-user-id="907003824370229340"] + .listName-PwbeHL .username-3JLfHz::after{
-    content                 :               '';
-    background              :               url(https://cdn.discordapp.com/attachments/792489362070962218/979796529021866014/274063902019211.png) center/100% no-repeat;
-    padding                 :               0px 7px 2.7px 7px;
-    margin-left             :               4.3px;
-}
-*/
 
 
 .username-h_Y3Us:before {
@@ -2716,4 +2717,15 @@ body #app-mount div.mention-3XBnnZ{
 @keyframes fadeFromLeft {
     0% {opacity: 0;transform: translateX(-50%);}
     100% {opacity: 1;transform: none;}
+}
+
+
+/* Fixes nonsense glitches */
+html, span:not(.spinner-item) {
+    backface-visibility: hidden;
+}
+html body #app-mount .wrapper-28eC3z foreignObject {
+  mask: none !important;
+  -webkit-mask: none !important;
+  border-radius: 50% !important;
 }
