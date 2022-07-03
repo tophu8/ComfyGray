@@ -29,5 +29,9 @@
 .children-1xdcWE .banner-3Uu4yV,
 .emptyTierWrapper-V5c-R7 .unlockTierCtaHeading-18Nq1u + .button-f2h6uQ,
 .selectorButtonPremiumRequired-IZXhgV,
-[class*=Upsell]
+[class*=Upsell],
+.trialOfferWrapper-2Y24ok,
+.giftWrapper-2Rmqr2,
+.marketingRefreshTier2Cta-2dN2zP,
+.marketingRefreshSectionTier1-1chtWC
 {display: none;}
