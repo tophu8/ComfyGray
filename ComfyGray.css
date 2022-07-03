@@ -2729,3 +2729,10 @@ html body #app-mount .wrapper-28eC3z foreignObject {
   -webkit-mask: none !important;
   border-radius: 50% !important;
 }
+
+/* removes the discord nitro buttons */
+.tutorialContainer-1pL9QS + .listItem-3SmSlK > .pill-1NRFie ~ *,
+.scroller-3X7KbA > [aria-label] + .listItem-3SmSlK,
+.tree-3agP2X + .fixedBottomList-1yrBla{
+    display: none;
+}
