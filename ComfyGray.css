@@ -2481,11 +2481,6 @@ button.button-2b4VEQ.height20-WSMpPs.button-f2h6uQ.lookFilled-yCfaCM.colorGreen-
     pointer-events          :               none !important;
 }
 
-/* hiding an expirement button because fuck im too lazy to fix it */
-.tree-3agP2X .scroller-3X7KbA [aria-label] + div:not(.tutorialContainer-2jwoiB){
-    display                 :               none;
-}
-
 
 /* fixing some bugs in full user popout */
 .focusLock-2tveLW[aria-label] .root-8LYsGj .date-YN6TCS{
@@ -2730,7 +2725,7 @@ html body #app-mount .wrapper-28eC3z foreignObject {
   border-radius: 50% !important;
 }
 
-/* removes the discord nitro buttons */
+/* removes the discord experiments nitro buttons(theyre causing bugs) */
 .tutorialContainer-1pL9QS + .listItem-3SmSlK > .pill-1NRFie ~ *,
 .scroller-3X7KbA > [aria-label] + .listItem-3SmSlK,
 .tree-3agP2X + .fixedBottomList-1yrBla{
