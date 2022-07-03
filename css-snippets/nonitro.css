@@ -1,6 +1,6 @@
 .premiumTrialBadge-pEqntF, 
-.tree-3agP2X .scroller-3X7KbA [aria-label] + div:not(.tutorialContainer-2jwoiB),
-.tutorialContainer-1pL9QS + .listItem-3SmSlK:not(.listItem-3SmSlK.frame-oXWS21),
+.scroller-3X7KbA > [aria-label] + .listItem-3SmSlK,
+.tutorialContainer-1pL9QS + .listItem-3SmSlK > .pill-1NRFie ~ *,
 .tree-3agP2X + .fixedBottomList-1yrBla,
 .activityButton-3CO1wv[aria-label],
 .buttons-uaqb-5>.button-f2h6uQ:not(.BD-TeX-plugin-button)> :not(.translateButton-DhP9x8),
