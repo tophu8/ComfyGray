@@ -9,8 +9,6 @@
 
 
 
-
-
 /* making it so dark and light mode are the same (since the theme is only gray) */
 
 @import url("https://stickfab.github.io/pc-fluenticons/src/fluenticons-settings.css");
@@ -2687,8 +2685,6 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .tree-3agP2X + .fixedBottomList-1yrBla{
     display: none;
 }
-
-
 /* changes the live tag in vc into a background gradient */
 .voiceUser-3nRK-K .live-1V2D-f {
     font-size: 0;
@@ -2709,3 +2705,42 @@ html body #app-mount .wrapper-28eC3z foreignObject {
     transition: .5s ease;
     border-radius: 0px;
 }
+
+
+
+
+
+.newMessagesPillContainer-1EFmTu :is(.newMessagesPill-2YdO-e, .newMessagesClear-2LQVHt){
+    background-color: #222222;
+    box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.47);
+    transition: 0.5s ease;
+    text-shadow: 0 0 15px currentColor;
+}
+.newMessagesPillContainer-1EFmTu :is(.newMessagesPill-2YdO-e, .newMessagesClear-2LQVHt):hover{
+    background-color: #282828;
+    box-shadow: 0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.678);
+}
+
+.root-g14mjS > [style="position: relative; width: 440px; height: 660px; overflow: hidden;"] > [style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] .content-2hZxGK::-webkit-scrollbar{
+    display: none;
+}
+.root-g14mjS > [style="position: relative; width: 440px; height: 660px; overflow: hidden;"] > [style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] .content-2hZxGK > div:not([class]) > .childButton-3o_dlg{
+    transition: 0.5s ease;
+    border: 1px solid var(--background-modifier-accent);
+}
+.root-g14mjS > [style="position: relative; width: 440px; height: 660px; overflow: hidden;"] > [style="position: absolute; flex-direction: column; backface-visibility: hidden; width: 440px; transform: translate3d(0px, -50%, 0px) scale(1, 1); top: 50%; left: auto; right: auto;"] .content-2hZxGK > div:not([class]) > .childButton-3o_dlg:hover{
+    border-radius: 35px;
+}
+.messagePreviewContainer-1oR1Oc .wrapper-30-Nkg .contents-2MsGLg *{
+    user-select: none;
+    pointer-events: none;
+}
+.messagePreviewContainer-1oR1Oc{
+    background-color: #131313;
+}
+
+/* message links restyle */
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX[title][href][role=button]{
+    color: #adadad;
+    text-shadow: 0 0 10px currentColor;
+} 
