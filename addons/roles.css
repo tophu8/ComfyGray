@@ -33,3 +33,16 @@
   opacity: .7;
   filter: saturate(1.2);
 }
+.role-2TIOKu[aria-label]:not([style]) {
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--background-modifier-selected);
+  -webkit-box-sizing: border-box;
+  border-color: #6e85d3;
+  box-sizing: border-box;
+  height: 22px;
+  width: 20% !important;
+  margin: 0 4px 4px 0;
+  padding: 4px;
+  color: #6e85d3;
+}
