@@ -2529,65 +2529,65 @@ body #app-mount .tooltip-14MtrL{
 
 
 /* hides nitro button svgs cause theyre annoying asf */
-.premiumLabel-3HPvdB svg{
-    display: none;
+.premiumLabel-3HPvdB svg, .offerBadge-1KDtMz{
+    display                 :               none;
 }
 
 /* hides logout button svg */
 .item-3XjbnG[aria-controls="logout-tab"] .tabBarItemContainer-2HdIlr svg{
-    display: none;
+    display                 :               none;
 }
 
 /* Emoji Auto-Fill Animation */
 .base-2v-uc0 {
-    transition: all 0.5s;
+    transition              :               all 0.5s;
 }
 .scroller-18M1mG .clickable-2V8YKY .base-2v-uc0:hover {
-    transition: all 0s;
-    transform: scale(1.01);
+    transition              :               all 0s;
+    transform               :               scale(1.01);
 }
 .scroller-18M1mG .clickable-2V8YKY{
-    width: 98%;
-    margin-left: .7%;
+    width                   :               98%;
+    margin-left             :               .7%;
 }
 
 
 
 /*Embeds*/
 :root {
-    --embed-border-radius: 8px;
+    --embed-border-radius   :               8px;
 }
 .embed-hKpSrO {
-    border-radius: var(--embed-border-radius);
+    border-radius           :               var(--embed-border-radius);
 }
 .embed-hKpSrO code {
-    background: var(--background-secondary);
+    background              :               var(--background-secondary);
 }
 :root {
-    --embed-line-width: 256px;
+    --embed-line-width      :               256px;
 }
 .embedFull-1HGV2S {
-    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
-    background: var(--background-secondary);
+    border-left             :               calc(4px + var(--embed-line-width)) solid var(--background-accent);
+    background              :               var(--background-secondary);
 }
 .grid-1aWVsE {
-    margin-left: calc( -1 * var(--embed-line-width));
-    z-index: 1;
+    margin-left             :               calc( -1 * var(--embed-line-width));
+    z-index                 :               1;
 }
 .embedFull-1HGV2S:after, .embedFull-1HGV2S:before {
-    content: "";
-    height: 100%;
-    width: var(--embed-line-width);
-    position: absolute;
-    top: 0;
-    left: calc(-1 * var(--embed-line-width));
+    content                 :               "";
+    height                  :               100%;
+    width                   :               var(--embed-line-width);
+    position                :               absolute;
+    top                     :               0;
+    left                    :               calc(-1 * var(--embed-line-width));
 }
 .embedFull-1HGV2S:after {
-    background: linear-gradient(to right, transparent, var(--background-secondary));
+    background              :               linear-gradient(to right, transparent, var(--background-secondary));
 }
 .embedFull-1HGV2S:before {
-    background: var(--background-secondary);
-    opacity: .8;
+    background              :               var(--background-secondary);
+    opacity                 :               .8;
 }
 
 /* Discord Links */
