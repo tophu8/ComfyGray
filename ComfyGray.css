@@ -1273,7 +1273,7 @@ button[aria-label="Show Game Activity"]::before {
     box-shadow              :               0 0 0 2px hsla(0, 0%, 21%, 0.69), 0 3px 16px hsla(0, 0%, 38%, 0.69);
     transition              :               0.5s ease;
 }
-.cozyMessage-1DWF9U.message-2CShn3  .container-2sjPya .messageAttachment-CZp8Iv:hover, .imageWrapper-oMkQl4:hover{
+.cozyMessage-1DWF9U.message-2CShn3  .container-2sjPya .messageAttachment-CZp8Iv a:hover, .imageWrapper-oMkQl4:hover{
     box-shadow              :               0 0 0 2px hsla(0, 0%, 15%, 0.69), 0 3px 16px hsla(0, 0%, 25%, 0.69);
     transition              :               0.5s ease;
     border-radius           :               10px;
@@ -2773,4 +2773,27 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .rowContainer-3t7486:hover{
     background-color: #181818;
     border-radius: 35px;
+}
+.container-2O1UgZ .combobox-3_6kOi > div:not([class], [id], [aria-label], [aria-controls]) > .list-1MBHYC .content-2a4AW9 .item-1BCeuB{
+    border-radius: 25px;
+    transition: .5s ease;
+}
+.container-2O1UgZ .combobox-3_6kOi > div:not([class], [id], [aria-label], [aria-controls]) > .list-1MBHYC .content-2a4AW9 .item-1BCeuB:hover{
+    border-radius: 5px;
+}
+
+/* slightly re-positioning the icon on the party mode tab in settings */
+.item-3XjbnG[aria-controls="powermode-settings-tab" i][aria-label] > .tabBarItemContainer-2HdIlr > img[src][class]{
+    margin: 0 0 5px 5px
+}
+
+/* hide wumpus from user popout */
+.footer-3naVBw > .wumpusWrapper-3ReSr0{
+    display: none;
+}
+
+/* userpopout bug fix */
+.root-8LYsGj > .topSection-13QKHs > header .headerTop-1PNKck > svg{
+    margin-left: 115px;
+    margin-top: -12px;
 }
