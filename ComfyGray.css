@@ -2799,22 +2799,17 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 }
 
 /* fixes some user control area bugs */
-.nameTag-sc-gpq.canCopy-IgTwyV {
-    display: none !important;
-}
-.panels-3wFtMD .container-YkUktl{
-    min-width: 0px !important;
-    width: 0px !important;
+.container-YkUktl .withTagAsButton-OsgQ9L, .container-YkUktl .withTagless-10ooWt{
+    min-width: 55px !important;
+    margin-right:0 !important;
     border-radius: 100% !important;
-    background-color: transparent !important;
-    background: none !important;
-    margin: 0% 0% 0% 0% !important;
+    background:transparent;
+}
+.nameTag-sc-gpq.canCopy-IgTwyV{
+    width:0;display:none !important;
 }
 body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked],
 body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked] + .button-12Fmur[aria-checked],
 body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked] + .button-12Fmur[aria-checked] + .button-12Fmur{
     margin-bottom: 15px !important;
-}
-.container-YkUktl .avatarWrapper-1B9FTW{
-    margin-right: 0px !important;
 }
