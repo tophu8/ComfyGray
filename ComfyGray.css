@@ -730,7 +730,7 @@
 }
  
 .guilds-2JjMmN .scrollerBase-_bVAAt {
-    max-height              :               calc(100% - 275px) !important;
+    max-height              :               calc(100% - 305px) !important;
 }
 
 
@@ -2796,4 +2796,25 @@ html body #app-mount .wrapper-28eC3z foreignObject {
 .root-8LYsGj > .topSection-13QKHs > header .headerTop-1PNKck > svg{
     margin-left: 115px;
     margin-top: -12px;
+}
+
+/* fixes some user control area bugs */
+.nameTag-sc-gpq.canCopy-IgTwyV {
+    display: none !important;
+}
+.panels-3wFtMD .container-YkUktl{
+    min-width: 0px !important;
+    width: 0px !important;
+    border-radius: 100% !important;
+    background-color: transparent !important;
+    background: none !important;
+    margin: 0% 0% 0% 0% !important;
+}
+body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked],
+body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked] + .button-12Fmur[aria-checked],
+body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked] + .button-12Fmur[aria-checked] + .button-12Fmur{
+    margin-bottom: 15px !important;
+}
+.container-YkUktl .avatarWrapper-1B9FTW{
+    margin-right: 0px !important;
 }
