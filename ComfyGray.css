@@ -2569,6 +2569,7 @@ body #app-mount .tooltip-14MtrL{
 .embedFull-1HGV2S {
     border-left             :               calc(4px + var(--embed-line-width)) solid var(--background-accent);
     background              :               var(--background-secondary);
+    z-index: 3;
 }
 .grid-1aWVsE {
     margin-left             :               calc( -1 * var(--embed-line-width));
@@ -2587,7 +2588,8 @@ body #app-mount .tooltip-14MtrL{
 }
 .embedFull-1HGV2S:before {
     background              :               var(--background-secondary);
-    opacity                 :               .8;
+    opacity                 :               .6;
+    z-index: -1;
 }
 
 /* Discord Links */
