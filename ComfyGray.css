@@ -2556,7 +2556,8 @@ body #app-mount .tooltip-14MtrL{
 /*Embeds*/
 .embedFull-1HGV2S{
     background-color: #191919;
-    border-radius: 4px 10px 10px 4px;
+    border: 1px solid var(--background-accent);
+    border-radius: 10px;
 }
 
 /* Discord Links */
@@ -2782,3 +2783,4 @@ body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.b
 body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.button-12Fmur[aria-checked] + .button-12Fmur[aria-checked] + .button-12Fmur{
     margin-bottom: 15px !important;
 }
+
