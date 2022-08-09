@@ -10,7 +10,7 @@
   --rs-large-width: 3px; /* Thickness of status border for User profile | MUST end in px */
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
   --rs-online-color: #00ff15; /* Colour for online status */
-  --rs-idle-color: #d9ff00; /* Colour for idle status */
+  --rs-idle-color: #f9a718; /* Colour for idle status */
   --rs-dnd-color: #ff5100; /* Colour for dnd status */
   --rs-offline-color: #636b75; /* Colour for offline status */
   --rs-streaming-color: #643da7; /* Colour for streaming status */
