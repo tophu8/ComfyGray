@@ -74,3 +74,7 @@ body #app-mount .panels-3wFtMD .container-YkUktl > .flex-2S1XBF > :first-child.b
   height                  :               0;
   width                   :               0;
 }
+#app-mount .guilds-2JjMmN .scrollerBase-_bVAAt {
+  max-height: calc(100% - 305px) !important;
+}
+
