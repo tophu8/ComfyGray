@@ -23,7 +23,7 @@
     --header-primary        :             #fff;
     --header-secondary      :             #b9bbbe;
     --text-normal           :             #dcddde;
-    --text-muted            :             #a3a6aa;
+    --text-muted            :             #6e97bf;
     --text-link             :               hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
     --text-link-low-saturation:             hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
     --text-positive         :               hsl(139,calc(var(--saturation-factor, 1)*51.6%),52.2%);
