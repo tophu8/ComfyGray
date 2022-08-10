@@ -11,7 +11,7 @@
   --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
   --rs-online-color: #00ff15; /* Colour for online status */
   --rs-idle-color: #f9a718; /* Colour for idle status */
-  --rs-dnd-color: #ff5100; /* Colour for dnd status */
+  --rs-dnd-color: #ed4245; /* Colour for dnd status */
   --rs-offline-color: #636b75; /* Colour for offline status */
   --rs-streaming-color: #643da7; /* Colour for streaming status */
   --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
